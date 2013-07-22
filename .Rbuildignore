@@ -1,0 +1,10 @@
+^\.Rproj\.user$
+^.*\.Rproj$
+.Rbuildignore
+qdapDictionaries.Rproj
+.gitignore
+.gitattributes
+qdapDictionaries.Rproj
+staticdocs
+maintenance.R
+.Rprofile
