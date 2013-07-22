@@ -25,5 +25,5 @@ install.packages("openNLP", type = "source")
 ```
 
 ## Help
-[Web Page](http://trinker.github.com/qdapDictionaries/) 
-[Package PDF Help Manual](https://dl.dropbox.com/u/61803503/qdapDictionaries.pdf).
+[Web Page](http://trinker.github.com/qdapDictionaries/)    
+[Package PDF Help Manual](https://dl.dropbox.com/u/61803503/qdapDictionaries.pdf)   
