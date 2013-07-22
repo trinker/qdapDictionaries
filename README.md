@@ -5,7 +5,7 @@
 
 ## Installation
 
-To download the development version of qdap:
+To download the development version of qdapDictionaries:
 
 Download the [zip ball](https://github.com/trinker/qdapDictionaries/zipball/master) or [tar ball](https://github.com/trinker/qdapDictionaries/tarball/master), decompress and run `R CMD INSTALL` on it, or use the **devtools** package to install the development version:
 

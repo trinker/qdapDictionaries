@@ -18,8 +18,7 @@ path2 <- paste0(path, "/index.html")
 rdme <- "C:/Users/trinker/GitHub/qdapDictionaries/inst/extra_statdoc/readme.R"
 #extras <- qcv(right.just, coleman_liau, flesch_kincaid, fry, 
 #    linsear_write, SMOG, syn, mgsub, adjmat, wc, wfdf, mcsv_w, dtm)
-#expand_statdoc(path2, to.icon = extras, readme = rdme, 
-#    combine = qcv(character.table, char.table))
+expand_statdoc(path2, readme = rdme)
 
 #STEP 3: move to trinker.guthub
 library(reports)
@@ -45,9 +44,7 @@ path2 <- paste0(path, "/index.html")
 rdme <- "C:/Users/trinker/GitHub/qdapDictionaries/inst/extra_statdoc/readme.R"
 #extras <- qcv(right.just, coleman_liau, flesch_kincaid, fry, 
 #    linsear_write, SMOG, syn, mgsub, adjmat, wc, wfdf, mcsv_w, dtm)
-#expand_statdoc(path2, to.icon = extras, readme = rdme, 
-#    combine = qcv(character.table, char.table))
-
+expand_statdoc(path2, readme = rdme)
 #STEP 3: move to trinker.guthub
 library(reports)
 file <- "C:/Users/trinker/GitHub/trinker.github.com/"
