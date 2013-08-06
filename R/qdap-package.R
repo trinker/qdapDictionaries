@@ -456,7 +456,7 @@ NULL
  
 #' First Names and Predictive Gender (U.S.)
 #' 
-#' A truncated version of the \code{link[qdap]{NAMES}}) dataset used for predicting.
+#' A truncated version of the \code{\link[qdap]{NAMES}} dataset used for predicting.
 #' 
 #' @details 
 #' \itemize{ 
@@ -477,7 +477,7 @@ NULL
 
 #' First Names and Predictive Gender (U.S.) List
 #' 
-#' A list version of the \code{link[qdap]{NAMES_SEX}}) dataset broken down by 
+#' A list version of the \code{\link[qdap]{NAMES_SEX}} dataset broken down by 
 #' first letter.
 #' 
 #' @details Alphabetical list of dataframes with the following variables:

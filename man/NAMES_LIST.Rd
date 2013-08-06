@@ -4,7 +4,7 @@
 \title{First Names and Predictive Gender (U.S.) List}
 \format{A list with 26 elements}
 \description{
-  A list version of the \code{link[qdap]{NAMES_SEX}})
+  A list version of the \code{\link[qdap]{NAMES_SEX}}
   dataset broken down by first letter.
 }
 \details{
