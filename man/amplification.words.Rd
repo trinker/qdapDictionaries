@@ -1,10 +1,10 @@
 \docType{data}
-\name{negation.words}
-\alias{negation.words}
-\title{Negating Words}
-\format{A vector with 23 elements}
+\name{amplification.words}
+\alias{amplification.words}
+\title{Amplifying Words}
+\format{A vector with 25 elements}
 \description{
-  A dataset containing a vector of words that negate word
+  A dataset containing a vector of words that amplify word
   meaning.
 }
 \details{

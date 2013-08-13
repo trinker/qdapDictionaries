@@ -1,8 +1,8 @@
 \docType{data}
 \name{env.syn}
 \alias{env.syn}
-\title{Syllable Lookup Environment}
-\format{A environment with}
+\title{Synonym Lookup Environment}
+\format{A environment with words and synonyms.}
 \description{
   A dataset containing a synonym lookup environment (see
   \code{link[qdap]{SYNONYM}}).

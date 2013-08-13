@@ -1,11 +1,11 @@
 \docType{data}
-\name{negation.words}
-\alias{negation.words}
-\title{Negating Words}
-\format{A vector with 23 elements}
+\name{deamplification.words}
+\alias{deamplification.words}
+\title{De-amplifying Words}
+\format{A vector with 14 elements}
 \description{
-  A dataset containing a vector of words that negate word
-  meaning.
+  A dataset containing a vector of words that de-amplify
+  word meaning.
 }
 \details{
   Valence shifters are words that alter or intensify the

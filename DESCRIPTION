@@ -16,4 +16,4 @@ License: GPL-2
 URL: http://trinker.github.com/qdapDictionaries/
 BugReports: http://github.com/trinker/qdapDictionaries/issues
 Collate:
-    'qdap-package.R'
+    'qdapDictionaries-package.R'

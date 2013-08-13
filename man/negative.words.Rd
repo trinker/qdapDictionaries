@@ -2,7 +2,7 @@
 \name{negative.words}
 \alias{negative.words}
 \title{Negative Words}
-\format{A vector with 4783 elements}
+\format{A vector with 4776 elements}
 \description{
   A dataset containing a vector of negative words.
 }

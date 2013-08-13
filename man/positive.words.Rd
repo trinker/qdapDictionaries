@@ -2,7 +2,7 @@
 \name{positive.words}
 \alias{positive.words}
 \title{Positive Words}
-\format{A vector with 2006 elements}
+\format{A vector with 2003 elements}
 \description{
   A dataset containing a vector of positive words.
 }

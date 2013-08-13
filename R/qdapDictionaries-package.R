@@ -259,15 +259,39 @@ NULL
 #' pie.", now containing the negator not. Amplifiers are, generally, adverbs or
 #' adjectives that intensify sentence meaning. Using our previous example, the
 #' sentiment of the negator altered sentence, "I seriously do not like pie.", is
-#' heightened with addition of the amplifier seriously.
+#' heightened with addition of the amplifier seriously.  Whereas de-amplifiers 
+#' decrease the intensity of a polarized word as in the sentence "I barely like
+#' pie"; the word "barely" deamplifies the word like.
 #' 
 #' @docType data 
 #' @keywords datasets 
-#' @name increase.amplification.words 
-#' @usage data(increase.amplification.words) 
-#' @format A vector with 32 elements 
+#' @name amplification.words 
+#' @usage data(amplification.words) 
+#' @format A vector with 25 elements 
 NULL
  
+#' De-amplifying Words
+#' 
+#' A dataset containing a vector of words that de-amplify word meaning.
+#' 
+#' @details 
+#' Valence shifters are words that alter or intensify the meaning of the polarized
+#' words and include negators and amplifiers. Negators are, generally, adverbs
+#' that negate sentence meaning; for example the word like in the sentence, "I do
+#' like pie.", is given the opposite meaning in the sentence, "I do not like
+#' pie.", now containing the negator not. Amplifiers are, generally, adverbs or
+#' adjectives that intensify sentence meaning. Using our previous example, the
+#' sentiment of the negator altered sentence, "I seriously do not like pie.", is
+#' heightened with addition of the amplifier seriously.  Whereas de-amplifiers 
+#' decrease the intensity of a polarized word as in the sentence "I barely like
+#' pie"; the word "barely" deamplifies the word like.
+#' 
+#' @docType data 
+#' @keywords datasets 
+#' @name deamplification.words 
+#' @usage data(deamplification.words) 
+#' @format A vector with 14 elements 
+NULL
 
 #' Interjections
 #' 
@@ -295,13 +319,15 @@ NULL
 #' pie.", now containing the negator not. Amplifiers are, generally, adverbs or
 #' adjectives that intensify sentence meaning. Using our previous example, the
 #' sentiment of the negator altered sentence, "I seriously do not like pie.", is
-#' heightened with addition of the amplifier seriously.
+#' heightened with addition of the amplifier seriously.  Whereas de-amplifiers 
+#' decrease the intensity of a polarized word as in the sentence "I barely like
+#' pie"; the word "barely" deamplifies the word like.
 #' 
 #' @docType data 
 #' @keywords datasets 
 #' @name negation.words 
 #' @usage data(negation.words) 
-#' @format A vector with 16 elements 
+#' @format A vector with 23 elements 
 NULL
  
 #' Negative Words
@@ -316,7 +342,7 @@ NULL
 #' @keywords datasets 
 #' @name negative.words 
 #' @usage data(negative.words) 
-#' @format A vector with 4783 elements 
+#' @format A vector with 4776 elements 
 #' @references Hu, M., & Liu, B. (2004). Mining opinion features in customer 
 #' reviews. National Conference on Artificial Intelligence. 
 #' 
@@ -335,7 +361,7 @@ NULL
 #' @keywords datasets 
 #' @name positive.words 
 #' @usage data(positive.words) 
-#' @format A vector with 2006 elements 
+#' @format A vector with 2003 elements 
 #' @references Hu, M., & Liu, B. (2004). Mining opinion features in customer 
 #' reviews. National Conference on Artificial Intelligence. 
 #' 
@@ -354,7 +380,23 @@ NULL
 #' @format A vector with 162 elements 
 NULL
  
- 
+#' Polarity Lookup Environment
+#' 
+#' A dataset containing a polarity lookup environment (see 
+#' \code{link[qdap]{polarity}}).
+#' 
+#' 
+#' @docType data 
+#' @keywords datasets 
+#' @name env.pol 
+#' @usage data(env.pol) 
+#' @format A environment with  words and corresponding values.
+#' @references Hu, M., & Liu, B. (2004). Mining opinion features in customer 
+#' reviews. National Conference on Artificial Intelligence. 
+#' 
+#' \url{http://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html}
+NULL
+
 #' Language Assessment by Mechanical Turk (labMT) Sentiment Words
 #' 
 #' A dataset containing words, average happiness score (polarity), standard 
@@ -411,7 +453,7 @@ NULL
 #' \code{\link[qdap]{labMT}}.
 NULL
  
-#' Syllable Lookup Environment
+#' Synonym Lookup Environment
 #' 
 #' A dataset containing a synonym lookup environment (see 
 #' \code{link[qdap]{SYNONYM}}).
@@ -421,7 +463,7 @@ NULL
 #' @keywords datasets 
 #' @name env.syn 
 #' @usage data(env.syn) 
-#' @format A environment with  
+#' @format A environment with words and synonyms.
 #' @references Scraped from:
 #' \href{http://dictionary.reverso.net/english-synonyms/}{Reverso Online Dictionary}.
 #' The word list fed to \href{http://dictionary.reverso.net/english-synonyms/}{Reverso} 
