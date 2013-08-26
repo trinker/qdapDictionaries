@@ -4,7 +4,7 @@
 #packages
 # library(devtools); install_github("qdap", "trinker"); install_github("staticdocs", "hadley")
 # install_github("acc.roxygen2", "trinker")
-library(highlight); library(qdap); library(staticdocs); library(acc.roxygen2)
+library(highlight); library(staticdocs); library(acc.roxygen2)
 
 #STEP 1: create static doc  
 #right now examples are FALSE in the future this will be true

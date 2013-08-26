@@ -17,3 +17,5 @@ URL: http://trinker.github.com/qdapDictionaries/
 BugReports: http://github.com/trinker/qdapDictionaries/issues
 Collate:
     'qdapDictionaries-package.R'
+    'left.just.R'
+    'view_data.R'
