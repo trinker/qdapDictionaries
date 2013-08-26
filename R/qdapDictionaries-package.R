@@ -27,6 +27,7 @@ NULL
 #' @name BuckleySaltonSWL 
 #' @usage data(BuckleySaltonSWL) 
 #' @format A character vector with 546 elements 
+#' @export
 #' @references \url{http://www.lextek.com/manuals/onix/stopwords2.html}
 NULL
  
@@ -49,6 +50,7 @@ NULL
 #' @name DICTIONARY 
 #' @usage data(DICTIONARY) 
 #' @format A data frame with 20137 rows and 2 variables 
+#' @export
 #' @references Sejnowski, T.J., and Rosenberg, C.R. (1987). "Parallel networks 
 #' that learn to pronounce English text" in Complex Systems, 1, 145-168. 
 #' Retrieved from: \url{http://archive.ics.uci.edu/ml/datasets/Connectionist+Bench+(Nettalk+Corpus)}
@@ -72,6 +74,7 @@ NULL
 #' @name OnixTxtRetToolkitSWL1 
 #' @usage data(OnixTxtRetToolkitSWL1) 
 #' @format A character vector with 404 elements 
+#' @export
 #' @references \url{http://www.lextek.com/manuals/onix/stopwords1.html}
 NULL
  
@@ -90,6 +93,7 @@ NULL
 #' @name Top100Words 
 #' @usage data(Top100Words) 
 #' @format A character vector with 100 elements 
+#' @export
 #' @references Fry, E. B. (1997). Fry 1000 instant words. Lincolnwood, IL: 
 #' Contemporary Books.
 NULL
@@ -109,6 +113,7 @@ NULL
 #' @name Top200Words 
 #' @usage data(Top200Words) 
 #' @format A character vector with 200 elements 
+#' @export
 #' @references Fry, E. B. (1997). Fry 1000 instant words. Lincolnwood, IL: 
 #' Contemporary Books.
 NULL
@@ -127,6 +132,7 @@ NULL
 #' @name Top25Words 
 #' @usage data(Top25Words) 
 #' @format A character vector with 25 elements 
+#' @export
 #' @references Fry, E. B. (1997). Fry 1000 instant words. Lincolnwood, IL: 
 #' Contemporary Books.
 NULL
@@ -146,6 +152,7 @@ NULL
 #' @name abbreviations 
 #' @usage data(abbreviations) 
 #' @format A data frame with 14 rows and 2 variables 
+#' @export
 NULL
  
 #' Action Word List
@@ -167,6 +174,7 @@ NULL
 #' @name action.verbs 
 #' @usage data(action.verbs) 
 #' @format A vector with 1569 elements 
+#' @export
 #' @references 
 #' \url{http://icon.shef.ac.uk/Moby/mpos.html}
 NULL
@@ -190,6 +198,7 @@ NULL
 #' @name adverb 
 #' @usage data(adverb) 
 #' @format A vector with 13398 elements 
+#' @export
 #' @references 
 #' \url{http://icon.shef.ac.uk/Moby/mpos.html}
 NULL
@@ -209,6 +218,7 @@ NULL
 #' @name contractions 
 #' @usage data(contractions) 
 #' @format A data frame with 65 rows and 2 variables 
+#' @export
 NULL
 
 
@@ -228,6 +238,7 @@ NULL
 #' @name emoticon 
 #' @usage data(emoticon) 
 #' @format A data frame with 81 rows and 2 variables 
+#' @export
 #' @references 
 #' \url{http://www.lingo2word.com/lists/emoticon_listH.html}
 NULL
@@ -243,6 +254,7 @@ NULL
 #' @name env.syl 
 #' @usage data(env.syl) 
 #' @format A environment with the DICTIONARY data set.  
+#' @export
 #' @references 
 #' \href{http://archive.ics.uci.edu/ml/machine-learning-databases/undocumented/connectionist-bench/nettalk/}{UCI Machine Learning Repository website}
 NULL
@@ -268,6 +280,7 @@ NULL
 #' @name amplification.words 
 #' @usage data(amplification.words) 
 #' @format A vector with 25 elements 
+#' @export
 NULL
  
 #' De-amplifying Words
@@ -291,6 +304,7 @@ NULL
 #' @name deamplification.words 
 #' @usage data(deamplification.words) 
 #' @format A vector with 14 elements 
+#' @export
 NULL
 
 #' Interjections
@@ -302,6 +316,7 @@ NULL
 #' @name interjections
 #' @usage data(interjections) 
 #' @format A character vector with 139 elements 
+#' @export
 #' @references
 #' \url{http://www.vidarholen.net/contents/interjections/}
 NULL
@@ -328,6 +343,7 @@ NULL
 #' @name negation.words 
 #' @usage data(negation.words) 
 #' @format A vector with 23 elements 
+#' @export
 NULL
  
 #' Negative Words
@@ -343,6 +359,7 @@ NULL
 #' @name negative.words 
 #' @usage data(negative.words) 
 #' @format A vector with 4776 elements 
+#' @export
 #' @references Hu, M., & Liu, B. (2004). Mining opinion features in customer 
 #' reviews. National Conference on Artificial Intelligence. 
 #' 
@@ -362,6 +379,7 @@ NULL
 #' @name positive.words 
 #' @usage data(positive.words) 
 #' @format A vector with 2003 elements 
+#' @export
 #' @references Hu, M., & Liu, B. (2004). Mining opinion features in customer 
 #' reviews. National Conference on Artificial Intelligence. 
 #' 
@@ -378,6 +396,7 @@ NULL
 #' @name preposition 
 #' @usage data(preposition) 
 #' @format A vector with 162 elements 
+#' @export
 NULL
  
 #' Polarity Lookup Environment
@@ -391,6 +410,7 @@ NULL
 #' @name env.pol 
 #' @usage data(env.pol) 
 #' @format A environment with  words and corresponding values.
+#' @export
 #' @references Hu, M., & Liu, B. (2004). Mining opinion features in customer 
 #' reviews. National Conference on Artificial Intelligence. 
 #' 
@@ -421,6 +441,7 @@ NULL
 #' @name labMT 
 #' @usage data(labMT) 
 #' @format A data frame with 10222 rows and 8 variables 
+#' @export
 #' @references 
 #' Dodds, P.S., Harris, K.D., Kloumann, I.M., Bliss, C.A., & Danforth, C.M. (2011) 
 #' Temporal patterns of happiness and information in a global social network: 
@@ -446,6 +467,7 @@ NULL
 #' @name SYNONYM 
 #' @usage data(SYNONYM) 
 #' @format A data frame with 11050 rows and 2 variables 
+#' @export
 #' @references Scraped from:
 #' \href{http://dictionary.reverso.net/english-synonyms/}{Reverso Online Dictionary}.
 #' The word list fed to \href{http://dictionary.reverso.net/english-synonyms/}{Reverso} 
@@ -464,6 +486,7 @@ NULL
 #' @name env.syn 
 #' @usage data(env.syn) 
 #' @format A environment with words and synonyms.
+#' @export
 #' @references Scraped from:
 #' \href{http://dictionary.reverso.net/english-synonyms/}{Reverso Online Dictionary}.
 #' The word list fed to \href{http://dictionary.reverso.net/english-synonyms/}{Reverso} 
@@ -493,6 +516,7 @@ NULL
 #' @name NAMES 
 #' @usage data(NAMES) 
 #' @format A data frame with 5494 rows and 7 variables 
+#' @export
 #' @references \url{http://www.census.gov/genealogy/www/data/1990surnames/names_files.html}
 NULL
  
@@ -514,6 +538,7 @@ NULL
 #' @name NAMES_SEX 
 #' @usage data(NAMES_SEX) 
 #' @format A data frame with 5163 rows and 3 variables 
+#' @export
 #' @references \url{http://www.census.gov/genealogy/www/data/1990surnames/names_files.html}
 NULL
 
@@ -536,5 +561,6 @@ NULL
 #' @name NAMES_LIST 
 #' @usage data(NAMES_LIST) 
 #' @format A list with 26 elements 
+#' @export
 #' @references \url{http://www.census.gov/genealogy/www/data/1990surnames/names_files.html}
 NULL
