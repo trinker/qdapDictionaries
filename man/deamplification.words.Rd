@@ -2,7 +2,7 @@
 \name{deamplification.words}
 \alias{deamplification.words}
 \title{De-amplifying Words}
-\format{A vector with 14 elements}
+\format{A vector with 13 elements}
 \description{
   A dataset containing a vector of words that de-amplify
   word meaning.

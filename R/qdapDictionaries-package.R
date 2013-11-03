@@ -267,7 +267,7 @@ NULL
 #' @keywords datasets 
 #' @name amplification.words 
 #' @usage data(amplification.words) 
-#' @format A vector with 25 elements 
+#' @format A vector with 45 elements 
 NULL
  
 #' De-amplifying Words
@@ -290,7 +290,7 @@ NULL
 #' @keywords datasets 
 #' @name deamplification.words 
 #' @usage data(deamplification.words) 
-#' @format A vector with 14 elements 
+#' @format A vector with 13 elements 
 NULL
 
 #' Interjections

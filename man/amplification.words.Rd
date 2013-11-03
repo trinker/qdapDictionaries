@@ -2,7 +2,7 @@
 \name{amplification.words}
 \alias{amplification.words}
 \title{Amplifying Words}
-\format{A vector with 25 elements}
+\format{A vector with 45 elements}
 \description{
   A dataset containing a vector of words that amplify word
   meaning.
