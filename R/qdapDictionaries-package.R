@@ -208,7 +208,7 @@ NULL
 #' @keywords datasets 
 #' @name contractions 
 #' @usage data(contractions) 
-#' @format A data frame with 65 rows and 2 variables 
+#' @format A data frame with 66 rows and 2 variables 
 NULL
 
 
@@ -267,7 +267,7 @@ NULL
 #' @keywords datasets 
 #' @name amplification.words 
 #' @usage data(amplification.words) 
-#' @format A vector with 45 elements 
+#' @format A vector with 49 elements 
 NULL
  
 #' De-amplifying Words
