@@ -21,9 +21,7 @@ install_github("qdapDictionaries", "trinker")
 
 **Note**: Mac users might be required to install the appropriate version [XTools](https://developer.apple.com/xcode/) from the [Apple Developer site](https://developer.apple.com/) in order to install the development version.  You may need to [register as an Apple developer](https://developer.apple.com/programs/register/).  An older version of XTools may also be required.
 
-```r
-install.packages("openNLP", type = "source")
-```
+
 
 ## Help
 [Web Page](http://trinker.github.com/qdapDictionaries/)    
