@@ -6,7 +6,7 @@
 #' @return Returns the data sets of qdapDictionaries as a dataframe.
 #' @export
 #' @examples
-#' data_view()
+#' view_data()
 view_data <-
 function() {
     pack <- "qdapDictionaries"
@@ -19,15 +19,19 @@ function() {
 }
 
 
-#' Prints a data_view Object
+#' Prints a view_data Object
 #' 
-#' Prints a data_view object.
+#' Prints a view_data object.
 #' 
-#' @param x The data_view object.
+#' @param x The view_data object.
 #' @param \ldots ignored
-#' @method print data_view
-#' @S3method print data_view
-print.data_view <-
+#' @method print view_data
+#' @S3method print view_data
+print.view_data <-
 function(x, ...) {
-    print.data.frame(left.just(x))
+    width <- options()[["width"]]
+	options(width=10000)
+    on.exit(options(width=width))
+    print(left.just(x))
+    return()
 }

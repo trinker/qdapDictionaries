@@ -1,2 +1,2 @@
 export(view_data)
-S3method(print,data_view)
+S3method(print,view_data)

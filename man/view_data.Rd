@@ -12,7 +12,7 @@
   qdapDictionaries.
 }
 \examples{
-data_view()
+view_data()
 }
 \seealso{
   \code{\link[utils]{data}}

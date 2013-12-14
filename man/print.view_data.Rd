@@ -1,0 +1,15 @@
+\name{print.view_data}
+\alias{print.view_data}
+\title{Prints a view_data Object}
+\usage{
+  \method{print}{view_data} (x, ...)
+}
+\arguments{
+  \item{x}{The view_data object.}
+
+  \item{\ldots}{ignored}
+}
+\description{
+  Prints a view_data object.
+}
+
