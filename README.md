@@ -1,5 +1,6 @@
 # qdapDictionaries
 ====
+[![Build Status](https://travis-ci.org/trinker/qdapDictionaries.png?branch=master)](https://travis-ci.org/trinker/qdapDictionaries)
 ![qdapicon](https://dl.dropbox.com/u/61803503/qdapicon.png)   
 [qdapDictionaries](http://trinker.github.com/qdapDictionaries/) is an R package containing the dictionaries and word lists for use with the qdap package.
 

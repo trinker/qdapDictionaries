@@ -21,4 +21,4 @@ And constructed with the following guidelines:
 qdapDictionaries 0.0.1
 ----------------------------------------------------------------
 
-The dictionaries and word lists previously found in qdap have been moved to a separate package, qdapDictionaries.  This is the first installment of the apckage.
+The dictionaries and word lists previously found in qdap have been moved to a separate package, qdapDictionaries.  This is the first installment of the package.

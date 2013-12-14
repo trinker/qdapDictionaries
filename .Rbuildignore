@@ -8,3 +8,4 @@ qdapDictionaries.Rproj
 staticdocs
 maintenance.R
 .Rprofile
+.travis.yml
