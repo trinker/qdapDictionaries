@@ -36,7 +36,7 @@ NULL
 #' 
 #' @note This data set is based on the Nettalk Corpus but has some researcher 
 #' word deletions and additions based on the needs of the 
-#' \code{\link[qdap]{syllable.sum}} algorithm.
+#' \code{\link[qdap]{syllable_sum}} algorithm.
 #' 
 #' @details 
 #' \itemize{ 
@@ -449,14 +449,14 @@ NULL
 #' @references Scraped from:
 #' \href{http://dictionary.reverso.net/english-synonyms/}{Reverso Online Dictionary}.
 #' The word list fed to \href{http://dictionary.reverso.net/english-synonyms/}{Reverso} 
-#' is the unique words from the combination of \code{\link[qdap]{DICTIONARY}} and
-#' \code{\link[qdap]{labMT}}.
+#' is the unique words from the combination of \code{DICTIONARY} and
+#' \code{labMT}.
 NULL
  
 #' Synonym Lookup Environment
 #' 
 #' A dataset containing a synonym lookup environment (see 
-#' \code{link[qdap]{SYNONYM}}).
+#' \code{SYNONYM}).
 #' 
 #' 
 #' @docType data 
@@ -467,8 +467,8 @@ NULL
 #' @references Scraped from:
 #' \href{http://dictionary.reverso.net/english-synonyms/}{Reverso Online Dictionary}.
 #' The word list fed to \href{http://dictionary.reverso.net/english-synonyms/}{Reverso} 
-#' is the unique words from the combination of \code{\link[qdap]{DICTIONARY}} and
-#' \code{\link[qdap]{labMT}}.
+#' is the unique words from the combination of \code{DICTIONARY} and
+#' \code{labMT}.
 NULL
 
 #' First Names and Gender (U.S.)
@@ -498,7 +498,7 @@ NULL
  
 #' First Names and Predictive Gender (U.S.)
 #' 
-#' A truncated version of the \code{\link[qdap]{NAMES}} dataset used for predicting.
+#' A truncated version of the \code{NAMES} dataset used for predicting.
 #' 
 #' @details 
 #' \itemize{ 
@@ -519,7 +519,7 @@ NULL
 
 #' First Names and Predictive Gender (U.S.) List
 #' 
-#' A list version of the \code{\link[qdap]{NAMES_SEX}} dataset broken down by 
+#' A list version of the \code{NAMES_SEX} dataset broken down by 
 #' first letter.
 #' 
 #' @details Alphabetical list of dataframes with the following variables:

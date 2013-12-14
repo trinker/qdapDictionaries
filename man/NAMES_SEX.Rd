@@ -4,8 +4,8 @@
 \title{First Names and Predictive Gender (U.S.)}
 \format{A data frame with 5163 rows and 3 variables}
 \description{
-  A truncated version of the \code{\link[qdap]{NAMES}}
-  dataset used for predicting.
+  A truncated version of the \code{NAMES} dataset used for
+  predicting.
 }
 \details{
   \itemize{ \item name. A first name.  \item gender2.
