@@ -18,6 +18,17 @@ And constructed with the following guidelines:
 
 
 
+qdapDictionaries 0.0.3
+----------------------------------------------------------------
+
+The dictionaries and word lists previously found in qdap have been moved to a separate package, qdapDictionaries.  This is the first installment of the package.
+
+
+qdapDictionaries 0.0.2
+----------------------------------------------------------------
+
+First version sent to CRAN
+
 qdapDictionaries 0.0.1
 ----------------------------------------------------------------
 
