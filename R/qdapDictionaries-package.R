@@ -36,7 +36,7 @@ NULL
 #' 
 #' @note This data set is based on the Nettalk Corpus but has some researcher 
 #' word deletions and additions based on the needs of the 
-#' \code{\link[qdap]{syllable_sum}} algorithm.
+#' \code{syllable_sum} algorithm.
 #' 
 #' @details 
 #' \itemize{ 
@@ -234,7 +234,7 @@ NULL
  
 #' Syllable Lookup Environment
 #' 
-#' A dataset containing a syllable lookup environment (see \code{link[qdap]{DICTIONARY}}).
+#' A dataset containing a syllable lookup environment (see \code{DICTIONARY}).
 #' 
 #' @details For internal use.
 #' 
@@ -383,7 +383,7 @@ NULL
 #' Polarity Lookup Environment
 #' 
 #' A dataset containing a polarity lookup environment (see 
-#' \code{link[qdap]{polarity}}).
+#' \code{\link[qdap]{polarity}}).
 #' 
 #' 
 #' @docType data 

@@ -5,7 +5,7 @@
 \format{A environment with the DICTIONARY data set.}
 \description{
   A dataset containing a syllable lookup environment (see
-  \code{link[qdap]{DICTIONARY}}).
+  \code{DICTIONARY}).
 }
 \details{
   For internal use.

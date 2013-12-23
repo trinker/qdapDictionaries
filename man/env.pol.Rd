@@ -5,7 +5,7 @@
 \format{A environment with  words and corresponding values.}
 \description{
   A dataset containing a polarity lookup environment (see
-  \code{link[qdap]{polarity}}).
+  \code{\link[qdap]{polarity}}).
 }
 \references{
   Hu, M., & Liu, B. (2004). Mining opinion features in
