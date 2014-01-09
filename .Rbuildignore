@@ -7,5 +7,5 @@ qdapDictionaries.Rproj
 qdapDictionaries.Rproj
 staticdocs
 maintenance.R
-.Rprofile
-.travis.yml
+^\.Rprofile
+^\.travis.yml
