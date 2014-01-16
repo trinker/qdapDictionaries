@@ -2,10 +2,9 @@
 ^.*\.Rproj$
 .Rbuildignore
 qdapDictionaries.Rproj
-.gitignore
-.gitattributes
-qdapDictionaries.Rproj
+^\.gitignore
+^\.gitattributes
 staticdocs
 maintenance.R
 ^\.Rprofile
-^\.travis.yml
+^\.travis\.yml$
