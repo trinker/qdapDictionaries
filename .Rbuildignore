@@ -9,3 +9,4 @@ maintenance.R
 ^\.Rprofile
 ^\.travis\.yml$
 inst/web
+news.md
