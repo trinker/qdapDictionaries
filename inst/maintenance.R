@@ -9,11 +9,10 @@ library(highlight); library(staticdocs); library(acc.roxygen2)
 #STEP 1: create static doc  
 #right now examples are FALSE in the future this will be true
 #in the future qdap2 will be the go to source
-build_package(package="C:/Users/trinker/GitHub/qdapDictionaries", 
-    base_path="C:/Users/trinker/Desktop/qdapDictionaries_dev/", examples = FALSE)
+build_site(pkg="C:/Users/trinker/GitHub/qdapDictionaries")
 
 #STEP 2: reshape index
-path <- "C:/Users/trinker/Desktop/qdapDictionaries_dev"
+path <- "inst/web"
 path2 <- paste0(path, "/index.html")
 rdme <- "C:/Users/trinker/GitHub/qdapDictionaries/inst/extra_statdoc/readme.R"
 #extras <- qcv(right.just, coleman_liau, flesch_kincaid, fry, 
@@ -22,10 +21,12 @@ expand_statdoc(path2, readme = rdme)
 
 #STEP 3: move to trinker.guthub
 library(reports)
-file <- "C:/Users/trinker/GitHub/trinker.github.com/"
-delete(paste0(file, "qdapDictionaries_dev"))
+file <- "C:/Users/trinker/GitHub/trinker.github.com"
+incoming <- file.path(file, "qdapDictionaries_dev")
+delete(incoming)
 file.copy(path, file, TRUE, TRUE)
-delete(path)
+file.rename(file.path(file, "web"), incoming)
+#delete(path)
 #==========================
 #staticdocs current version
 #==========================
@@ -35,22 +36,34 @@ library(highlight); library(qdap); library(staticdocs); library(acc.roxygen2)
 #STEP 1: create static doc  
 #right now examples are FALSE in the future this will be true
 #in the future qdap2 will be the go to source
-build_package(package="C:/Users/trinker/GitHub/qdapDictionaries", 
-    base_path="C:/Users/trinker/Desktop/qdapDictionaries/", examples = FALSE)
+build_site(pkg="C:/Users/trinker/GitHub/qdapDictionaries")
 
 #STEP 2: reshape index
-path <- "C:/Users/trinker/Desktop/qdapDictionaries"
+path <- "inst/web"
 path2 <- paste0(path, "/index.html")
 rdme <- "C:/Users/trinker/GitHub/qdapDictionaries/inst/extra_statdoc/readme.R"
 #extras <- qcv(right.just, coleman_liau, flesch_kincaid, fry, 
 #    linsear_write, SMOG, syn, mgsub, adjmat, wc, wfdf, mcsv_w, dtm)
 expand_statdoc(path2, readme = rdme)
+
 #STEP 3: move to trinker.guthub
 library(reports)
-file <- "C:/Users/trinker/GitHub/trinker.github.com/"
-delete(paste0(file, "qdapDictionaries"))
+file <- "C:/Users/trinker/GitHub/trinker.github.com"
+incoming <- file.path(file, "qdapDictionaries")
+delete(incoming)
 file.copy(path, file, TRUE, TRUE)
-delete(path)
+file.rename(file.path(file, "web"), incoming)
+#delete(path)
+
+
+
+
+#==========================
+# NEWS new version
+#==========================
+x <- c("BUG FIXES", "NEW FEATURES", "MINOR FEATURES", "IMPROVEMENTS", "CHANGES")
+cat(paste(x, collapse = "\n\n"), file="clipboard")
+
 
 #=============================
 #Update Name 2 Gender Data Set

@@ -3,24 +3,27 @@
 \alias{SYNONYM}
 \title{Synonyms Data Set}
 \format{A data frame with 11050 rows and 2 variables}
+\usage{
+data(SYNONYM)
+}
 \description{
-  A dataset containing words and possible synonym matches.
+A dataset containing words and possible synonym matches.
 }
 \details{
-  \itemize{ \item word. The look up word.  \item
-  match.string. A single string of possible matches. }
+\itemize{ \item word. The look up word.  \item
+match.string. A single string of possible matches. }
 }
 \note{
-  Intended for internal use with the
-  \code{\link[qdap]{synonyms}} function.
+Intended for internal use with the
+\code{\link[qdap]{synonyms}} function.
 }
 \references{
-  Scraped from:
-  \href{http://dictionary.reverso.net/english-synonyms/}{Reverso
-  Online Dictionary}. The word list fed to
-  \href{http://dictionary.reverso.net/english-synonyms/}{Reverso}
-  is the unique words from the combination of
-  \code{DICTIONARY} and \code{labMT}.
+Scraped from:
+\href{http://dictionary.reverso.net/english-synonyms/}{Reverso
+Online Dictionary}. The word list fed to
+\href{http://dictionary.reverso.net/english-synonyms/}{Reverso}
+is the unique words from the combination of
+\code{DICTIONARY} and \code{labMT}.
 }
 \keyword{datasets}
 

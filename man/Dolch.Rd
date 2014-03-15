@@ -1,0 +1,22 @@
+\docType{data}
+\name{Dolch}
+\alias{Dolch}
+\title{Dolch List of 220 Common Words}
+\format{A vector with 220 elements}
+\usage{
+data(Dolch)
+}
+\description{
+Edward William Dolch's list of 220 Most Commonly Used
+Words.
+}
+\details{
+Dolch's Word List made up 50-75\% of all printed text in
+1936.
+}
+\references{
+Dolch, E. W. (1936). A basic sight vocabulary. Elementary
+School Journal, 36, 456-460.
+}
+\keyword{datasets}
+

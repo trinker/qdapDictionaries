@@ -2,19 +2,19 @@
 \alias{view_data}
 \title{List all data sets available in a qdapDictionaries}
 \usage{
-  view_data()
+view_data()
 }
 \value{
-  Returns the data sets of qdapDictionaries as a dataframe.
+Returns the data sets of qdapDictionaries as a dataframe.
 }
 \description{
-  Lists and describes all the data sets available in
-  qdapDictionaries.
+Lists and describes all the data sets available in
+qdapDictionaries.
 }
 \examples{
 view_data()
 }
 \seealso{
-  \code{\link[utils]{data}}
+\code{\link[utils]{data}}
 }
 

@@ -3,12 +3,15 @@
 \alias{interjections}
 \title{Interjections}
 \format{A character vector with 139 elements}
+\usage{
+data(interjections)
+}
 \description{
-  A dataset containing a character vector of common
-  interjections.
+A dataset containing a character vector of common
+interjections.
 }
 \references{
-  \url{http://www.vidarholen.net/contents/interjections/}
+\url{http://www.vidarholen.net/contents/interjections/}
 }
 \keyword{datasets}
 

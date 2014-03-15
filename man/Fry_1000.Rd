@@ -1,0 +1,20 @@
+\docType{data}
+\name{Fry_1000}
+\alias{Fry_1000}
+\title{Fry's 1000 Most Commonly Used English Words}
+\format{A vector with 1000 elements}
+\usage{
+data(Fry_1000)
+}
+\description{
+A stopword list containing a character vector of stopwords.
+}
+\details{
+Fry's 1000 Word List makes up 90\% of all printed text.
+}
+\references{
+Fry, E. B. (1997). Fry 1000 instant words. Lincolnwood, IL:
+Contemporary Books.
+}
+\keyword{datasets}
+

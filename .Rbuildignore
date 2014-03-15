@@ -8,3 +8,4 @@ staticdocs
 maintenance.R
 ^\.Rprofile
 ^\.travis\.yml$
+inst/web

@@ -5,7 +5,7 @@
 \alias{qdapDictionaries-package}
 \title{qdapDictionaries}
 \description{
-  A collection of dictionaries and Word Lists to Accompany
-  the qdap Package
+A collection of dictionaries and Word Lists to Accompany
+the qdap Package
 }
 
