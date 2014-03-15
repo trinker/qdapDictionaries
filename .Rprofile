@@ -34,11 +34,3 @@ update_news <- function(repo = "qdapDictionaries") {
 	  message("news.md updated")
 }
 
-r2dev <- function(pack = "qdap", rver = "3.0.1", dev = "C:/R/R-devel/library") {
-    cur <- file.path(paste0("C:/R/R-", rver), "library", pack)
-    if (file.exists(file.path(dev, pack))) {
-        unlink(file.path(dev, pack), recursive = TRUE, force = FALSE)
-    }
-    file.copy(cur, dev, recursive = TRUE)
-    message(paste("dev version of", pack, "updated"))
-}
