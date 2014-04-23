@@ -10,3 +10,4 @@ maintenance.R
 ^\.travis\.yml$
 inst/web
 news.md
+news.html

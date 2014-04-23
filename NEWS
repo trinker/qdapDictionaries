@@ -21,7 +21,18 @@ And constructed with the following guidelines:
 qdapDictionaries 0.0.3
 ----------------------------------------------------------------
 
+BUG FIXES
 
+NEW FEATURES
+
+*  The following sentiment related data sets have been added: `strong.words`, 
+  `weak.words`, `power.words`, `submit.words`, `env.strength`, `env.power`.
+
+MINOR FEATURES
+
+IMPROVEMENTS
+
+CHANGES
 
 
 qdapDictionaries 0.0.2

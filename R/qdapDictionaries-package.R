@@ -421,7 +421,6 @@ NULL
 #' 
 #' A dataset containing a vector of common prepositions.
 #' 
-#' 
 #' @docType data 
 #' @keywords datasets 
 #' @name preposition 
@@ -587,3 +586,86 @@ NULL
 #' @format A list with 26 elements 
 #' @references \url{http://www.census.gov/genealogy/www/data/1990surnames/names_files.html}
 NULL
+
+
+#' Words that Indicate Strength
+#' 
+#' A subset of the 
+#' \href{http://www.wjh.harvard.edu/~inquirer/inqdict.txt}{Harvard IV Dictionary} 
+#' containing a vector of words indicating strength.
+#' 
+#' @docType data 
+#' @keywords datasets 
+#' @name strong.words 
+#' @usage data(strong.words) 
+#' @format A vector with 1474 elements 
+#' @references \url{http://www.wjh.harvard.edu/~inquirer/inqdict.txt}
+NULL
+ 
+#' Words that Indicate Weakness
+#' 
+#' A subset of the 
+#' \href{http://www.wjh.harvard.edu/~inquirer/inqdict.txt}{Harvard IV Dictionary} 
+#' containing a vector of words indicating weakness.
+#' 
+#' @docType data 
+#' @keywords datasets 
+#' @name weak.words 
+#' @usage data(weak.words) 
+#' @format A vector with 647 elements 
+#' @references \url{http://www.wjh.harvard.edu/~inquirer/inqdict.txt} 
+NULL
+ 
+#' Words that Indicate Power
+#' 
+#' A subset of the 
+#' \href{http://www.wjh.harvard.edu/~inquirer/inqdict.txt}{Harvard IV Dictionary} 
+#' containing a vector of words indicating power.
+#' 
+#' @docType data 
+#' @keywords datasets 
+#' @name power.words 
+#' @usage data(power.words) 
+#' @format A vector with 624 elements 
+#' @references \url{http://www.wjh.harvard.edu/~inquirer/inqdict.txt} 
+NULL
+ 
+#' Words that Indicate Submission
+#' 
+#' A subset of the 
+#' \href{http://www.wjh.harvard.edu/~inquirer/inqdict.txt}{Harvard IV Dictionary} 
+#' containing a vector of words indicating submission.
+#' 
+#' @docType data 
+#' @keywords datasets 
+#' @name submit.words 
+#' @usage data(submit.words) 
+#' @format A vector with 262 elements 
+#' @references \url{http://www.wjh.harvard.edu/~inquirer/inqdict.txt} 
+NULL
+ 
+#' Strength Lookup Environment
+#' 
+#' A dataset containing a polarity lookup environment. 
+#' 
+#' @docType data 
+#' @keywords datasets 
+#' @name env.strength 
+#' @usage data(env.strength) 
+#' @format A environment with  
+#' @references 
+NULL
+ 
+#' Power Lookup Environment
+#' 
+#' A dataset containing a polarity lookup environment.
+#' 
+#' 
+#' @docType data 
+#' @keywords datasets 
+#' @name env.power 
+#' @usage data(env.power) 
+#' @format A environment with  
+#' @references 
+NULL
+

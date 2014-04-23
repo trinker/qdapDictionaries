@@ -1,3 +1,11 @@
+#==========================
+# NEWS new version
+#==========================
+x <- c("BUG FIXES", "NEW FEATURES", "MINOR FEATURES", "IMPROVEMENTS", "CHANGES")
+cat(paste(x, collapse = "\n\n"), file="clipboard")
+
+
+
 #========================
 #staticdocs dev version
 #========================
@@ -110,4 +118,44 @@ NAMES_LIST <- lapply(LETTERS, function(x){
 })
 names(NAMES_LIST) <- LETTERS
 
+#==========================
+#Update Power/Strength Data
+#==========================
 
+dat <- readLines("inqdict.txt")
+
+dat <- readLines("http://www.wjh.harvard.edu/~inquirer/inqdict.txt")
+head(dat)
+
+dat <- dat[-1]
+
+df <- data.frame(word=beg2char(dat), type= char2end(dat))
+
+head(df)
+
+df[, qcv(Strong, Power, Weak, Submit)] <- lapply(c("Strng", "Power", "Weak ", 
+	"Subm"), grepl, df[, 2])
+
+head(df)
+
+df[, "word"] <- tolower(beg2char(df[, "word"], "#"))
+
+
+position <- setNames(lapply(3:6, function(i) {
+    unique(df[df[, i], "word"])
+}), colnames(df)[3:6])
+
+lapply(position, nchar)
+
+strong.words <- Strong
+power.words <- Power
+weak.words <- Weak
+submit.words <- Submit
+
+list2env(position, .GlobalEnv)
+
+env.strength <- sentiment_frame(strong.words, weak.words)
+env.power <- sentiment_frame(power.words, submit.words)
+
+dat4rox(strong.words, weak.words, power.words, submit.words, env.strength, env.power)
+pack.skel(strong.words, weak.words, power.words, submit.words, env.strength, env.power)

@@ -7,9 +7,9 @@ update_news <- function(repo = "qdapDictionaries") {
         c("<", ">", "&lt;major&gt;.&lt;minor&gt;.&lt;patch&gt;", "BUG FIXES", 
             "NEW FEATURES", "MINOR FEATURES", "CHANGES", " TRUE ", " FALSE ", 
             " NULL ", "TRUE.", "FALSE.", "NULL.", ":m:"), 
-        c("&lt;", "&gt;", "<b>&lt;major&gt;.&lt;minor&gt;.&lt;patch&gt;</b>", 
-            "<b>BUG FIXES</b>", "<b>NEW FEATURES</b>", "<b>MINOR FEATURES</b>", 
-            "<b>CHANGES</b>", " `TRUE` ", "`FALSE`.", "`NULL`.", "`TRUE`.", 
+        c("&lt;", "&gt;", "**&lt;major&gt;.&lt;minor&gt;.&lt;patch&gt;**", 
+            "**BUG FIXES**", "**NEW FEATURES**", "**MINOR FEATURES**", 
+            "**CHANGES**", " `TRUE` ", "`FALSE`.", "`NULL`.", "`TRUE`.", 
             " `FALSE` ", " `NULL` ", " : m : "), 
         News, trim = FALSE, fixed=TRUE)
     
