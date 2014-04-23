@@ -11,3 +11,4 @@ maintenance.R
 inst/web
 news.md
 news.html
+travis-tool.sh
