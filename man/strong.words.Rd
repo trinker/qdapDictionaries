@@ -1,0 +1,19 @@
+\docType{data}
+\name{strong.words}
+\alias{strong.words}
+\title{Words that Indicate Strength}
+\format{A vector with 1474 elements}
+\usage{
+data(strong.words)
+}
+\description{
+A subset of the
+\href{http://www.wjh.harvard.edu/~inquirer/inqdict.txt}{Harvard
+IV Dictionary} containing a vector of words indicating
+strength.
+}
+\references{
+\url{http://www.wjh.harvard.edu/~inquirer/inqdict.txt}
+}
+\keyword{datasets}
+

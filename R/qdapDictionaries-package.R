@@ -646,19 +646,19 @@ NULL
  
 #' Strength Lookup Environment
 #' 
-#' A dataset containing a polarity lookup environment. 
+#' A dataset containing a strength lookup environment. 
 #' 
 #' @docType data 
 #' @keywords datasets 
 #' @name env.strength 
 #' @usage data(env.strength) 
 #' @format A environment with  
-#' @references 
+#' @references \url{http://www.wjh.harvard.edu/~inquirer/inqdict.txt} 
 NULL
  
 #' Power Lookup Environment
 #' 
-#' A dataset containing a polarity lookup environment.
+#' A dataset containing a power lookup environment.
 #' 
 #' 
 #' @docType data 
@@ -666,6 +666,6 @@ NULL
 #' @name env.power 
 #' @usage data(env.power) 
 #' @format A environment with  
-#' @references 
+#' @references \url{http://www.wjh.harvard.edu/~inquirer/inqdict.txt} 
 NULL
 

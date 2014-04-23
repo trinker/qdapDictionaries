@@ -1,0 +1,19 @@
+\docType{data}
+\name{submit.words}
+\alias{submit.words}
+\title{Words that Indicate Submission}
+\format{A vector with 262 elements}
+\usage{
+data(submit.words)
+}
+\description{
+A subset of the
+\href{http://www.wjh.harvard.edu/~inquirer/inqdict.txt}{Harvard
+IV Dictionary} containing a vector of words indicating
+submission.
+}
+\references{
+\url{http://www.wjh.harvard.edu/~inquirer/inqdict.txt}
+}
+\keyword{datasets}
+

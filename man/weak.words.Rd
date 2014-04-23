@@ -1,0 +1,19 @@
+\docType{data}
+\name{weak.words}
+\alias{weak.words}
+\title{Words that Indicate Weakness}
+\format{A vector with 647 elements}
+\usage{
+data(weak.words)
+}
+\description{
+A subset of the
+\href{http://www.wjh.harvard.edu/~inquirer/inqdict.txt}{Harvard
+IV Dictionary} containing a vector of words indicating
+weakness.
+}
+\references{
+\url{http://www.wjh.harvard.edu/~inquirer/inqdict.txt}
+}
+\keyword{datasets}
+

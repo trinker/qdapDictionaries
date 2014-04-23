@@ -1,0 +1,19 @@
+\docType{data}
+\name{power.words}
+\alias{power.words}
+\title{Words that Indicate Power}
+\format{A vector with 624 elements}
+\usage{
+data(power.words)
+}
+\description{
+A subset of the
+\href{http://www.wjh.harvard.edu/~inquirer/inqdict.txt}{Harvard
+IV Dictionary} containing a vector of words indicating
+power.
+}
+\references{
+\url{http://www.wjh.harvard.edu/~inquirer/inqdict.txt}
+}
+\keyword{datasets}
+

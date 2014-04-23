@@ -14,6 +14,8 @@ sd_section("Data",
   	"Dolch",
     "emoticon",
     "env.pol",
+  	"env.power",
+  	"env.strength", 
     "env.syl",
     "env.syn",
   	"Fry_1000", 
@@ -27,11 +29,15 @@ sd_section("Data",
     "negative.words",
     "OnixTxtRetToolkitSWL1",
     "positive.words",
+  	"power.words",
     "preposition",
+  	"strong.words",
+  	"submit.words",
     "SYNONYM",
     "Top100Words",
     "Top200Words",
-    "Top25Words"
+    "Top25Words",
+  	"weak.words"
   )
 )
 
