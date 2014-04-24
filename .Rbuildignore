@@ -12,3 +12,4 @@ inst/web
 news.md
 news.html
 travis-tool.sh
+inst/build.R

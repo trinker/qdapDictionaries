@@ -1,7 +1,7 @@
 update_news <- function(repo = "qdapDictionaries") {
   
     News <- readLines("NEWS")
-    library(qdap)
+    require(qdap)
     
     News <- qdap::mgsub(
         c("<", ">", "&lt;major&gt;.&lt;minor&gt;.&lt;patch&gt;", "BUG FIXES", 

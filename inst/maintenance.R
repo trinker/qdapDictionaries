@@ -4,7 +4,10 @@
 x <- c("BUG FIXES", "NEW FEATURES", "MINOR FEATURES", "IMPROVEMENTS", "CHANGES")
 cat(paste(x, collapse = "\n\n"), file="clipboard")
 
-
+#========
+# BUILD
+#========
+source("inst/build.R")
 
 #========================
 #staticdocs dev version
@@ -35,6 +38,7 @@ delete(incoming)
 file.copy(path, file, TRUE, TRUE)
 file.rename(file.path(file, "web"), incoming)
 #delete(path)
+
 #==========================
 #staticdocs current version
 #==========================

@@ -16,23 +16,27 @@ And constructed with the following guidelines:
   (and resets the patch)
 * Bug fixes and misc changes bumps the patch
 
-
-
-qdapDictionaries 0.0.3
+qdapDictionaries 0.0.5
 ----------------------------------------------------------------
 
 **BUG FIXES**
 
 **NEW FEATURES**
 
-*  The following sentiment related data sets have been added: `strong.words`, 
-  `weak.words`, `power.words`, `submit.words`, `env.strength`, `env.power`.
-
 **MINOR FEATURES**
 
 IMPROVEMENTS
 
 **CHANGES**
+
+
+qdapDictionaries 0.0.4
+----------------------------------------------------------------
+
+**NEW FEATURES**
+
+*  The following sentiment related data sets have been added: `strong.words`, 
+  `weak.words`, `power.words`, `submit.words`, `env.strength`, `env.power`.
 
 
 qdapDictionaries 0.0.2

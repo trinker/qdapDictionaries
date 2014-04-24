@@ -16,7 +16,7 @@ variables: \itemize{ \item name. A first name.  \item
 gender2. Gender of the combined male/female list with "B"
 in place of overlapping (M/F) names.  \item pred.sex.
 Predicted gender of the names with B's in \code{gender2}
-repalced with the gender that had a higher \code{per.freq}.
+replaced with the gender that had a higher \code{per.freq}.
 }
 }
 \references{
