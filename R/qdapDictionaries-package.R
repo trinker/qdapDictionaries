@@ -281,20 +281,21 @@ NULL
 #' \url{http://www.lingo2word.com/lists/emoticon_listH.html}
 NULL
  
-#' Syllable Lookup Environment
+#' Syllable Lookup Key
 #' 
-#' A dataset containing a syllable lookup environment (see \code{DICTIONARY}).
+#' A dataset containing a syllable lookup key (see \code{DICTIONARY}).
 #' 
 #' @details For internal use.
 #' 
 #' @docType data 
 #' @keywords datasets 
-#' @name env.syl 
-#' @usage data(env.syl) 
-#' @format A environment with the DICTIONARY data set.  
+#' @name key.syl 
+#' @usage data(key.syl) 
+#' @format A hash key with a modified DICTIONARY data set.  
 #' @references 
 #' \href{http://archive.ics.uci.edu/ml/machine-learning-databases/undocumented/connectionist-bench/nettalk/}{UCI Machine Learning Repository website}
 NULL
+
  
 #' Amplifying Words
 #' 
@@ -428,17 +429,16 @@ NULL
 #' @format A vector with 162 elements 
 NULL
  
-#' Polarity Lookup Environment
+#' Polarity Lookup Key
 #' 
-#' A dataset containing a polarity lookup environment (see 
-#' \code{\link[qdap]{polarity}}).
+#' A dataset containing a polarity lookup key (see \code{\link[qdap]{polarity}}).
 #' 
 #' 
 #' @docType data 
 #' @keywords datasets 
-#' @name env.pol 
-#' @usage data(env.pol) 
-#' @format A environment with  words and corresponding values.
+#' @name key.pol 
+#' @usage data(key.pol) 
+#' @format A hash key with words and corresponding values.
 #' @references Hu, M., & Liu, B. (2004). Mining opinion features in customer 
 #' reviews. National Conference on Artificial Intelligence. 
 #' 
@@ -501,17 +501,17 @@ NULL
 #' \code{labMT}.
 NULL
  
-#' Synonym Lookup Environment
+
+#' Synonym Lookup Key
 #' 
-#' A dataset containing a synonym lookup environment (see 
-#' \code{SYNONYM}).
+#' A dataset containing a synonym lookup key (see \code{SYNONYM}).
 #' 
 #' 
 #' @docType data 
 #' @keywords datasets 
-#' @name env.syn 
-#' @usage data(env.syn) 
-#' @format A environment with words and synonyms.
+#' @name key.syn 
+#' @usage data(key.syn) 
+#' @format A hash keyt with words and synonyms.
 #' @references Scraped from:
 #' \href{http://dictionary.reverso.net/english-synonyms/}{Reverso Online Dictionary}.
 #' The word list fed to \href{http://dictionary.reverso.net/english-synonyms/}{Reverso} 
@@ -644,28 +644,28 @@ NULL
 #' @references \url{http://www.wjh.harvard.edu/~inquirer/inqdict.txt} 
 NULL
  
-#' Strength Lookup Environment
+#' Strength Lookup Key
 #' 
-#' A dataset containing a strength lookup environment. 
+#' A dataset containing a strength lookup key. 
 #' 
 #' @docType data 
 #' @keywords datasets 
-#' @name env.strength 
-#' @usage data(env.strength) 
-#' @format A environment with  
+#' @name key.strength 
+#' @usage data(key.strength) 
+#' @format A hash key with strength words.
 #' @references \url{http://www.wjh.harvard.edu/~inquirer/inqdict.txt} 
 NULL
  
-#' Power Lookup Environment
+#' Power Lookup Key
 #' 
-#' A dataset containing a power lookup environment.
+#' A dataset containing a power lookup key.
 #' 
 #' 
 #' @docType data 
 #' @keywords datasets 
-#' @name env.power 
-#' @usage data(env.power) 
-#' @format A environment with  
+#' @name key.power 
+#' @usage data(key.power) 
+#' @format A hash key with power words.
 #' @references \url{http://www.wjh.harvard.edu/~inquirer/inqdict.txt} 
 NULL
 

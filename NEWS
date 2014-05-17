@@ -16,8 +16,12 @@ And constructed with the following guidelines:
   (and resets the patch)
 * Bug fixes and misc changes bumps the patch
 
-qdapDictionaries 0.0.5
+qdapDictionaries 1.0.0
 ----------------------------------------------------------------
+
+The removal of environments and addition of keys (name change from env.XXX to 
+key.XXX) may cause a break with backward compatibility, hence the major version 
+bump to 1.0.0.
 
 BUG FIXES
 
@@ -28,6 +32,10 @@ MINOR FEATURES
 IMPROVEMENTS
 
 CHANGES
+
+* The `env.syl`, `env.pol`, `env.power`, `env.strength`, and `env.syn` have been 
+  converted from environments to `data.table` based hash keys and renamed to 
+  `key.syl`, `key.pol`, `key.power`, `key.strength`, and `key.syn`.
 
 
 qdapDictionaries 0.0.4

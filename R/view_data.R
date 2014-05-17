@@ -26,7 +26,7 @@ function() {
 #' @param x The view_data object.
 #' @param \ldots ignored
 #' @method print view_data
-#' @S3method print view_data
+#' @export
 print.view_data <-
 function(x, ...) {
     width <- options()[["width"]]
