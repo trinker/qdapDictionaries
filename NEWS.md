@@ -16,6 +16,20 @@ And constructed with the following guidelines:
   (and resets the patch)
 * Bug fixes and misc changes bumps the patch
 
+
+qdapDictionaries 1.0.2
+----------------------------------------------------------------
+
+**BUG FIXES**
+
+**NEW FEATURES**
+
+**MINOR FEATURES**
+
+**IMPROVEMENTS**
+
+**CHANGES**
+
 qdapDictionaries 1.0.0 - 1.0.1
 ----------------------------------------------------------------
 
