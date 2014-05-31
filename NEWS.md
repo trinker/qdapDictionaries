@@ -16,20 +16,12 @@ And constructed with the following guidelines:
   (and resets the patch)
 * Bug fixes and misc changes bumps the patch
 
-qdapDictionaries 1.0.0
+qdapDictionaries 1.0.0 - 1.0.1
 ----------------------------------------------------------------
 
 The removal of environments and addition of keys (name change from env.XXX to 
 key.XXX) may cause a break with backward compatibility, hence the major version 
 bump to 1.0.0.
-
-**BUG FIXES**
-
-**NEW FEATURES**
-
-**MINOR FEATURES**
-
-IMPROVEMENTS
 
 **CHANGES**
 

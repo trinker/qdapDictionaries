@@ -6,11 +6,11 @@ update_news <- function(repo = "qdapDictionaries") {
     News <- qdap::mgsub(
         c("<", ">", "&lt;major&gt;.&lt;minor&gt;.&lt;patch&gt;", "BUG FIXES", 
             "NEW FEATURES", "MINOR FEATURES", "CHANGES", " TRUE ", " FALSE ", 
-            " NULL ", "TRUE.", "FALSE.", "NULL.", ":m:"), 
+            " NULL ", "TRUE.", "FALSE.", "NULL.", ":m:", "IMPROVEMENTS"), 
         c("&lt;", "&gt;", "**&lt;major&gt;.&lt;minor&gt;.&lt;patch&gt;**", 
             "**BUG FIXES**", "**NEW FEATURES**", "**MINOR FEATURES**", 
             "**CHANGES**", " `TRUE` ", "`FALSE`.", "`NULL`.", "`TRUE`.", 
-            " `FALSE` ", " `NULL` ", " : m : "), 
+            " `FALSE` ", " `NULL` ", " : m : ", "**IMPROVEMENTS**"), 
         News, trim = FALSE, fixed=TRUE)
     
     News <- sub(pattern="issue *# *([0-9]+)", 
