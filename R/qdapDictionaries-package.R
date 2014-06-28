@@ -6,7 +6,26 @@
 #' @aliases qdapDictionaries package-qdapDictionaries
 NULL
 
-
+#' Augmented List of Grady Ward's English Words and Mark Kantrowitz's Names List
+#' 
+#' A dataset containing a vector of Grady Ward's English words augmented with 
+#' Mark Kantrowitz's names list, other proper proper nouns, and contractions.  
+#' 
+#' @details A dataset containing a vector of Grady Ward's English words 
+#' augmented with proper nouns (U.S. States, Mark Kantrowitz's Names List, and 
+#' months) and contractions. That dataset is augmented for spell checking purposes. 
+#'  
+#' @docType data 
+#' @keywords datasets 
+#' @name GradyAugmented
+#' @usage data(GradyAugmented) 
+#' @format A vector with 120609 elements 
+#' @references Moby Thesaurus List by Grady Ward \url{http://www.gutenberg.org/etext/3202} \cr \cr
+#' List of names from Mark Kantrowitz \url{http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names/}.  
+#' A copy of the \href{http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names/readme.txt}{README} 
+#' is available \href{http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names/readme.txt}{here} 
+#' per the author's request.
+NULL
 
 #' Buckley & Salton Stopword List
 #' 
