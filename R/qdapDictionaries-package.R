@@ -9,7 +9,7 @@ NULL
 #' Augmented List of Grady Ward's English Words and Mark Kantrowitz's Names List
 #' 
 #' A dataset containing a vector of Grady Ward's English words augmented with 
-#' Mark Kantrowitz's names list, other proper proper nouns, and contractions.  
+#' Mark Kantrowitz's names list, other proper nouns, and contractions.  
 #' 
 #' @details A dataset containing a vector of Grady Ward's English words 
 #' augmented with proper nouns (U.S. States, Mark Kantrowitz's Names List, and 
