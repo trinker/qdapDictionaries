@@ -19,7 +19,7 @@ A dataset containing syllable counts.
 \note{
 This data set is based on the Nettalk Corpus but has some researcher
 word deletions and additions based on the needs of the
-\code{syllable_sum} algorithm.
+\code{\link[qdap]{syllable_sum}} algorithm.
 }
 \references{
 Sejnowski, T.J., and Rosenberg, C.R. (1987). "Parallel networks

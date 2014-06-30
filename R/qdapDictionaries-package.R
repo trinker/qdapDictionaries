@@ -57,7 +57,7 @@ NULL
 #' 
 #' @note This data set is based on the Nettalk Corpus but has some researcher 
 #' word deletions and additions based on the needs of the 
-#' \code{syllable_sum} algorithm.
+#' \code{\link[qdap]{syllable_sum}} algorithm.
 #' 
 #' @details 
 #' \itemize{ 
