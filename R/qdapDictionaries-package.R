@@ -9,7 +9,9 @@ NULL
 #' Augmented List of Grady Ward's English Words and Mark Kantrowitz's Names List
 #' 
 #' A dataset containing a vector of Grady Ward's English words augmented with 
-#' Mark Kantrowitz's names list, other proper nouns, and contractions.  
+#' \code{\link[qdapDictionaries]{DICTIONARY}}, 
+#' \href{http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names}{Mark Kantrowitz's names list}, 
+#' other proper nouns, and contractions.  
 #' 
 #' @details A dataset containing a vector of Grady Ward's English words 
 #' augmented with proper nouns (U.S. States, Mark Kantrowitz's Names List, and 
@@ -19,7 +21,7 @@ NULL
 #' @keywords datasets 
 #' @name GradyAugmented
 #' @usage data(GradyAugmented) 
-#' @format A vector with 120614 elements 
+#' @format A vector with 122584 elements 
 #' @references Moby Thesaurus List by Grady Ward \url{http://www.gutenberg.org/etext/3202} \cr \cr
 #' List of names from Mark Kantrowitz \url{http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names/}.  
 #' A copy of the \href{http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names/readme.txt}{README} 

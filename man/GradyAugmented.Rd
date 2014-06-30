@@ -3,13 +3,15 @@
 \name{GradyAugmented}
 \alias{GradyAugmented}
 \title{Augmented List of Grady Ward's English Words and Mark Kantrowitz's Names List}
-\format{A vector with 120614 elements}
+\format{A vector with 122584 elements}
 \usage{
 data(GradyAugmented)
 }
 \description{
 A dataset containing a vector of Grady Ward's English words augmented with
-Mark Kantrowitz's names list, other proper nouns, and contractions.
+\code{\link[qdapDictionaries]{DICTIONARY}},
+\href{http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names}{Mark Kantrowitz's names list},
+other proper nouns, and contractions.
 }
 \details{
 A dataset containing a vector of Grady Ward's English words
