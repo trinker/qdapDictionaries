@@ -532,7 +532,7 @@ NULL
 #' @keywords datasets 
 #' @name key.syn 
 #' @usage data(key.syn) 
-#' @format A hash keyt with words and synonyms.
+#' @format A hash key with 10976 rows and 2 variables (words and synonyms).
 #' @references Scraped from:
 #' \href{http://dictionary.reverso.net/english-synonyms/}{Reverso Online Dictionary}.
 #' The word list fed to \href{http://dictionary.reverso.net/english-synonyms/}{Reverso} 

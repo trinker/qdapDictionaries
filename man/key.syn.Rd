@@ -3,7 +3,7 @@
 \name{key.syn}
 \alias{key.syn}
 \title{Synonym Lookup Key}
-\format{A hash keyt with words and synonyms.}
+\format{A hash key with 10976 rows and 2 variables (words and synonyms).}
 \usage{
 data(key.syn)
 }
