@@ -22,6 +22,9 @@ qdapDictionaries 1.0.2
 
 **BUG FIXES**
 
+* `key.syn` contained antonyms and elemets the were error messages (character).
+  This has been fixed.  Reference <a href="https://github.com/trinker/qdapDictionaries/issues/2">issue #2</a>. (Jingjing Zou)
+
 **NEW FEATURES**
 
 **MINOR FEATURES**

@@ -22,6 +22,9 @@ qdapDictionaries 1.0.2
 
 BUG FIXES
 
+* `key.syn` contained antonyms and elemets the were error messages (character).
+  This has been fixed.  Reference issue #2. (Jingjing Zou)
+
 NEW FEATURES
 
 MINOR FEATURES
