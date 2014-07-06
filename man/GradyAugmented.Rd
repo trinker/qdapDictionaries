@@ -3,7 +3,7 @@
 \name{GradyAugmented}
 \alias{GradyAugmented}
 \title{Augmented List of Grady Ward's English Words and Mark Kantrowitz's Names List}
-\format{A vector with 122584 elements}
+\format{A vector with 122736 elements}
 \usage{
 data(GradyAugmented)
 }
@@ -15,8 +15,8 @@ other proper nouns, and contractions.
 }
 \details{
 A dataset containing a vector of Grady Ward's English words
-augmented with proper nouns (U.S. States, Mark Kantrowitz's Names List, and
-months) and contractions. That dataset is augmented for spell checking purposes.
+augmented with proper nouns (U.S. States, Countries, Mark Kantrowitz's Names List,
+and months) and contractions. That dataset is augmented for spell checking purposes.
 }
 \references{
 Moby Thesaurus List by Grady Ward \url{http://www.gutenberg.org/etext/3202} \cr \cr

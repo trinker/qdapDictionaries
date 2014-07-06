@@ -14,14 +14,14 @@ NULL
 #' other proper nouns, and contractions.  
 #' 
 #' @details A dataset containing a vector of Grady Ward's English words 
-#' augmented with proper nouns (U.S. States, Mark Kantrowitz's Names List, and 
-#' months) and contractions. That dataset is augmented for spell checking purposes. 
+#' augmented with proper nouns (U.S. States, Countries, Mark Kantrowitz's Names List, 
+#' and months) and contractions. That dataset is augmented for spell checking purposes. 
 #'  
 #' @docType data 
 #' @keywords datasets 
 #' @name GradyAugmented
 #' @usage data(GradyAugmented) 
-#' @format A vector with 122584 elements 
+#' @format A vector with 122736 elements 
 #' @references Moby Thesaurus List by Grady Ward \url{http://www.gutenberg.org/etext/3202} \cr \cr
 #' List of names from Mark Kantrowitz \url{http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names/}.  
 #' A copy of the \href{http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names/readme.txt}{README} 
