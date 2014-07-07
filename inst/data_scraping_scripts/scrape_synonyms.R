@@ -131,6 +131,29 @@ pack.skel(key.syn)
 nrow(key.syn)
 
 
+##===
+##ENCODING
+
+x <- key.syn[[2]][which(stri_enc_mark(key.syn[[2]]) != "ASCII")]
+
+
+   ser <- c("<e2><80><98>", 
+        "<e2><80><99>", "<e2><80><9b>", "<ef><bc><87>",  
+         "<c3><a1>", "<c3><a9>", 
+        "<c2><bd>",
+"<c3><aa>", "<c3><a0>", "<c3><a7>", "<c3><a8>", "<c3><af>", "<c3><a4>", "<c3><a2>",
+" @@@@ [6]<da><a9><d8><aa><d8><a7><d8><a8>")
+
+    reps <- c("'", "'", "'", "'", "a", "e", "half", "e", "a", "c", "e", "f", "a", "a", "")
+
+#sink(file="temp.txt")
+
+key.syn[[2]][which(stri_enc_mark(key.syn[[2]]) != "ASCII")] <- 
+mgsub(ser, reps, iconv(x, "", "ASCII", "byte"))
+#sink()
+
+pack.skel(key.syn)
+
 #==========================
 ## Add countries
 grady2 <- qdapDictionaries::GradyAugmented[!grepl("\\s", qdapDictionaries::GradyAugmented)]
@@ -181,3 +204,4 @@ z <- c("Afghanistan", "Albania", "Algeria", "Andorra", "Angola", "Antigua ",
 reps2 <- tolower(unique(unlist(strsplit(mgsub(pref,"", Trim(z)), " "))))
 
 GradyAugmented <- tolower(unique(c(grady2, reps, reps2)))
+

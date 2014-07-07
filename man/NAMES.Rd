@@ -3,7 +3,7 @@
 \name{NAMES}
 \alias{NAMES}
 \title{First Names and Gender (U.S.)}
-\format{A data frame with 5494 rows and 7 variables}
+\format{A data frame with 5493 rows and 7 variables}
 \usage{
 data(NAMES)
 }

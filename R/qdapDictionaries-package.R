@@ -499,28 +499,6 @@ NULL
 #' \url{http://www.plosone.org/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pone.0026752.s001}
 NULL
  
-#' Synonyms Data Set
-#' 
-#' A dataset containing words and possible synonym matches.
-#' 
-#' @details 
-#' \itemize{ 
-#'   \item word. The look up word. 
-#'   \item match.string. A single string of possible matches.
-#' } 
-#' 
-#' @note Intended for internal use with the \code{\link[qdap]{synonyms}} function.
-#' @docType data 
-#' @keywords datasets 
-#' @name SYNONYM 
-#' @usage data(SYNONYM) 
-#' @format A data frame with 11050 rows and 2 variables 
-#' @references Scraped from:
-#' \href{http://dictionary.reverso.net/english-synonyms/}{Reverso Online Dictionary}.
-#' The word list fed to \href{http://dictionary.reverso.net/english-synonyms/}{Reverso} 
-#' is the unique words from the combination of \code{DICTIONARY} and
-#' \code{labMT}.
-NULL
  
 
 #' Synonym Lookup Key
@@ -561,7 +539,7 @@ NULL
 #' @keywords datasets 
 #' @name NAMES 
 #' @usage data(NAMES) 
-#' @format A data frame with 5494 rows and 7 variables 
+#' @format A data frame with 5493 rows and 7 variables 
 #' @references \url{http://www.census.gov/genealogy/www/data/1990surnames/names_files.html}
 NULL
  
@@ -582,7 +560,7 @@ NULL
 #' @keywords datasets 
 #' @name NAMES_SEX 
 #' @usage data(NAMES_SEX) 
-#' @format A data frame with 5163 rows and 3 variables 
+#' @format A data frame with 5162 rows and 3 variables 
 #' @references \url{http://www.census.gov/genealogy/www/data/1990surnames/names_files.html}
 NULL
 
