@@ -27,9 +27,14 @@ BUG FIXES
 
 NEW FEATURES
 
+* `GradyAugmented` was added.  This augmented Grady data set is a large list of 
+ known English words and proper nouns.
+
 MINOR FEATURES
 
 IMPROVEMENTS
+
+* `contractions` data set picks up 3 words: "it'll", "'cause", & "there'll".
 
 CHANGES
 

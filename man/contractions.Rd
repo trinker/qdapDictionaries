@@ -3,7 +3,7 @@
 \name{contractions}
 \alias{contractions}
 \title{Contraction Conversions}
-\format{A data frame with 66 rows and 2 variables}
+\format{A data frame with 69 rows and 2 variables}
 \usage{
 data(contractions)
 }
