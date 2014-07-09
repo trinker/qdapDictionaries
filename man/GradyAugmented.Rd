@@ -3,7 +3,7 @@
 \name{GradyAugmented}
 \alias{GradyAugmented}
 \title{Augmented List of Grady Ward's English Words and Mark Kantrowitz's Names List}
-\format{A vector with 122795 elements}
+\format{A vector with 122806 elements}
 \usage{
 data(GradyAugmented)
 }
