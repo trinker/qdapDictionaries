@@ -207,7 +207,8 @@ undiminished, olympic, olympics, gotta, gonna, undocumented, google, illegals, w
 strategically, fundraisers, fundraiser, dismissive, hypotheticals, experienced, britain, britains, 
 palestinians, palestinian, extremism, transitioning, transitioned, guaranteed, workforce, pre, 
 environmentally, principled, cyber, ceasefire, "it'll", billionaires, wheelhouse, workplace, middleclass,
-"'cause", "there'll", businessperson) 
+"'cause", "there'll", businessperson, benchmarks, benchmark, iranians, culturally, chronically, 
+extrapolated, misperception, eyewitnesses, gridlock, unelected, unelect) 
 
 reps2 <- tolower(unique(unlist(strsplit(mgsub(pref,"", Trim(z)), " "))))
 

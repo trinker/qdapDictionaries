@@ -21,7 +21,7 @@ NULL
 #' @keywords datasets 
 #' @name GradyAugmented
 #' @usage data(GradyAugmented) 
-#' @format A vector with 122795 elements 
+#' @format A vector with 122806 elements 
 #' @references Moby Thesaurus List by Grady Ward \url{http://www.gutenberg.org/etext/3202} \cr \cr
 #' List of names from Mark Kantrowitz \url{http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names/}.  
 #' A copy of the \href{http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names/readme.txt}{README} 
