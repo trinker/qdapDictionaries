@@ -199,9 +199,15 @@ z <- c("Afghanistan", "Albania", "Algeria", "Andorra", "Angola", "Antigua ",
     "Tobago", "Tunisia", "Turkey", "Turkmenistan", "Tuvalu", "Uganda", 
     "Ukraine", "United Arab Emirates", "United Kingdom", "United States", 
     "Uruguay", "Uzbekistan", "Vanuatu", "Vatican City", "Venezuela", 
-    "Vietnam", "Yemen", "Zambia", "Zimbabwe")
+    "Vietnam", "Yemen", "Zambia", "Zimbabwe", "america", "american", "americas")
+
+adds <- qcv(ok, tv, affordable, americans, terrorist, terrorists, outsourcing, outsource, outsourced,
+ipad, iphone, ipads, iphones, russia, americans, russians, geopolitical, syrian, syrians, democratically,
+undiminished, olympic, olympics, gotta, gonna, undocumented, google, illegals, website, diplomatically, 
+strategically, fundraisers, fundraiser, dismissive, hypotheticals, experienced, britain, britains, 
+palestinians, palestinian, extremism, transitioning, transitioned) 
 
 reps2 <- tolower(unique(unlist(strsplit(mgsub(pref,"", Trim(z)), " "))))
 
-GradyAugmented <- tolower(unique(c(grady2, reps, reps2)))
+GradyAugmented <- tolower(unique(c(grady2, reps, reps2, adds)))
 
