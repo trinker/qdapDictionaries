@@ -205,7 +205,8 @@ adds <- qcv(ok, tv, affordable, americans, terrorist, terrorists, outsourcing, o
 ipad, iphone, ipads, iphones, russia, americans, russians, geopolitical, syrian, syrians, democratically,
 undiminished, olympic, olympics, gotta, gonna, undocumented, google, illegals, website, diplomatically, 
 strategically, fundraisers, fundraiser, dismissive, hypotheticals, experienced, britain, britains, 
-palestinians, palestinian, extremism, transitioning, transitioned) 
+palestinians, palestinian, extremism, transitioning, transitioned, guaranteed, workforce, pre, 
+environmentally, principled) 
 
 reps2 <- tolower(unique(unlist(strsplit(mgsub(pref,"", Trim(z)), " "))))
 
