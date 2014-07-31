@@ -503,7 +503,7 @@ NULL
 
 #' Synonym Lookup Key
 #' 
-#' A dataset containing a synonym lookup key (see \code{SYNONYM}).
+#' A dataset containing a synonym lookup key.
 #' 
 #' 
 #' @docType data 

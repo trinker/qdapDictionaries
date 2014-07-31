@@ -8,7 +8,7 @@
 data(key.syn)
 }
 \description{
-A dataset containing a synonym lookup key (see \code{SYNONYM}).
+A dataset containing a synonym lookup key.
 }
 \references{
 Scraped from:
