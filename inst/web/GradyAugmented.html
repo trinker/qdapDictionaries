@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-<title>NAMES_SEX. qdapDictionaries 1.0.2</title>
+<title>GradyAugmented. qdapDictionaries 1.0.2</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="author" content="">
 
@@ -35,60 +35,58 @@
         
       </header>
       
-      <h1>First Names and Predictive Gender (U.S.)</h1>
+      <h1>Augmented List of Grady Ward's English Words and Mark Kantrowitz's Names List</h1>
 
 <div class="row">
   <div class="span8">
     <h2>Usage</h2>
-    <pre><div>data(NAMES_SEX)</div></pre>
+    <pre><div>data(GradyAugmented)</div></pre>
         
-    <div class="First Names and Predictive Gender (U.S.)">
-      <h2>First Names and Predictive Gender (U.S.)</h2>
+    <div class="Augmented List of Grady Ward's English Words and Mark Kantrowitz's Names List">
+      <h2>Augmented List of Grady Ward's English Words and Mark Kantrowitz's Names List</h2>
       
     </div>
 
     <div class="Format">
       <h2>Format</h2>
       
-      <p>A data frame with 5162 rows and 3 variables</p>
+      <p>A vector with 122806 elements</p>
   
     </div>
 
     <div class="Description">
       <h2>Description</h2>
       
-      <p>A truncated version of the <code>NAMES</code> dataset used for predicting.</p>
+      <p>A dataset containing a vector of Grady Ward's English words augmented with
+<code>DICTIONARY</code>,
+<a href = 'http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names'>Mark Kantrowitz's names list</a>,
+other proper nouns, and contractions.</p>
   
     </div>
 
     <div class="Details">
       <h2>Details</h2>
       
-      <p><ul>
-<li> name. A first name.
-  </li>
-<li> gender2. Gender of the combined male/female list with "B" in place of
-  overlapping (M/F) names.
-  </li>
-<li> pred.sex. Predicted gender of the names with B's in <code>gender2</code>
-  replaced with the gender that had a higher <code>per.freq</code>.
-</li>
-</ul></p>
-  
-      <p></p>
+      <p>A dataset containing a vector of Grady Ward's English words
+augmented with proper nouns (U.S. States, Countries, Mark Kantrowitz's Names List,
+and months) and contractions. That dataset is augmented for spell checking purposes.</p>
   
     </div>
 
     <div class="References">
       <h2>References</h2>
       
-      <p><a href = 'http://www.census.gov/genealogy/www/data/1990surnames/names_files.html'>http://www.census.gov/genealogy/www/data/1990surnames/names_files.html</a></p>
+      <p>Moby Thesaurus List by Grady Ward <a href = 'http://www.gutenberg.org/etext/3202'>http://www.gutenberg.org/etext/3202</a>  
+List of names from Mark Kantrowitz <a href = 'http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names/'>http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names/</a>.
+A copy of the <a href = 'http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names/readme.txt'>README</a>
+is available <a href = 'http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names/readme.txt'>here</a>
+per the author's request.</p>
   
     </div>
       </div>
   <div class="span4">
     <!-- <ul>
-      <li>NAMES_SEX</li>
+      <li>GradyAugmented</li>
     </ul>
     <ul>
       <li>datasets</li>
