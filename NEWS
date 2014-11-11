@@ -22,6 +22,9 @@ qdapDictionaries 1.0.3
 
 BUG FIXES
 
+* `contractions` did not contain "we've" but erroneously contained "what did" 
+  rather than "what'd" and "when" rather than "when'd" = "when did".
+
 NEW FEATURES
 
 MINOR FEATURES

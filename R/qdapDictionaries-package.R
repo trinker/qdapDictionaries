@@ -278,7 +278,7 @@ NULL
 #' @keywords datasets 
 #' @name contractions 
 #' @usage data(contractions) 
-#' @format A data frame with 69 rows and 2 variables 
+#' @format A data frame with 70 rows and 2 variables 
 NULL
 
 

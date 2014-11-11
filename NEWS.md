@@ -17,6 +17,23 @@ And constructed with the following guidelines:
 * Bug fixes and misc changes bumps the patch
 
 
+qdapDictionaries 1.0.3
+----------------------------------------------------------------
+
+**BUG FIXES**
+
+* `contractions` did not contain "we've" but erroneously contained "what did" 
+  rather than "what'd" and "when" rather than "when'd" = "when did".
+
+**NEW FEATURES**
+
+**MINOR FEATURES**
+
+**IMPROVEMENTS**
+
+**CHANGES**
+
+
 qdapDictionaries 1.0.2
 ----------------------------------------------------------------
 
@@ -30,13 +47,10 @@ qdapDictionaries 1.0.2
 * `GradyAugmented` was added.  This augmented Grady data set is a large list of 
  known English words and proper nouns.
 
-**MINOR FEATURES**
-
 **IMPROVEMENTS**
 
 * `contractions` data set picks up 3 words: "it'll", "'cause", & "there'll".
 
-**CHANGES**
 
 qdapDictionaries 1.0.0 - 1.0.1
 ----------------------------------------------------------------

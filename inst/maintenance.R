@@ -9,6 +9,11 @@ cat(paste(x, collapse = "\n\n"), file="clipboard")
 #========
 source("inst/build.R")
 
+#============
+# UPDATE NEWS
+#============
+source("inst/update_news.R")
+
 #========================
 #staticdocs dev version
 #========================

@@ -6,7 +6,7 @@ qdapDictionaries.Rproj
 ^\.gitattributes
 staticdocs
 maintenance.R
-^\.Rprofile
+update_news.R
 ^\.travis\.yml$
 inst/web
 news.md
