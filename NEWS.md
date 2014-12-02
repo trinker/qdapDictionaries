@@ -33,6 +33,8 @@ qdapDictionaries 1.0.3
 
 **CHANGES**
 
+* The **qdap** package is no longer in Suggests: in the DESCRIPTION file.
+
 
 qdapDictionaries 1.0.2
 ----------------------------------------------------------------
