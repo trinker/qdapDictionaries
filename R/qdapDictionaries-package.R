@@ -586,6 +586,21 @@ NULL
 #' @references \url{http://www.census.gov/genealogy/www/data/1990surnames/names_files.html}
 NULL
 
+#' Function Words
+#' 
+#' A vector of function words from 
+#' \href{http://myweb.tiscali.co.uk/wordscape/museum/funcword.html}{John and Muriel Higgins's list} 
+#' used for the text game ECLIPSE.
+#' 
+#' 
+#' @docType data 
+#' @keywords datasets 
+#' @name function_words 
+#' @usage data(function_words) 
+#' @format A vector with 321 elements 
+#' @references \url{http://myweb.tiscali.co.uk/wordscape/museum/funcword.html}
+NULL
+
 
 #' Words that Indicate Strength
 #' 
