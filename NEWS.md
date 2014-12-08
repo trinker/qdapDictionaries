@@ -27,7 +27,7 @@ qdapDictionaries 1.0.3
 
 **NEW FEATURES**
 
-* `function_words` a list of function words added from: <a href="http://myweb.tiscali.co.uk/wordscape/museum/funcword.html" target="_blank">http://myweb.tiscali.co.uk/wordscape/museum/funcword.html</a>
+* `function.words` a list of function words added from: <a href="http://myweb.tiscali.co.uk/wordscape/museum/funcword.html" target="_blank">http://myweb.tiscali.co.uk/wordscape/museum/funcword.html</a>
 
 **MINOR FEATURES**
 
