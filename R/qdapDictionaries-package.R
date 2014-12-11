@@ -590,14 +590,15 @@ NULL
 #' 
 #' A vector of function words from 
 #' \href{http://myweb.tiscali.co.uk/wordscape/museum/funcword.html}{John and Muriel Higgins's list} 
-#' used for the text game ECLIPSE.
+#' used for the text game ECLIPSE.  The lest is augmented with additional 
+#' contractions from \code{\link[qdapDictionaries]{contractions}}.
 #' 
 #' 
 #' @docType data 
 #' @keywords datasets 
 #' @name function.words 
 #' @usage data(function.words) 
-#' @format A vector with 321 elements 
+#' @format A vector with 352 elements 
 #' @references \url{http://myweb.tiscali.co.uk/wordscape/museum/funcword.html}
 NULL
 
