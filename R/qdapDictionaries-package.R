@@ -598,7 +598,7 @@ NULL
 #' @keywords datasets 
 #' @name function.words 
 #' @usage data(function.words) 
-#' @format A vector with 352 elements 
+#' @format A vector with 350 elements 
 #' @references \url{http://myweb.tiscali.co.uk/wordscape/museum/funcword.html}
 NULL
 

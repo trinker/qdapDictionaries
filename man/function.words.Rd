@@ -3,7 +3,7 @@
 \name{function.words}
 \alias{function.words}
 \title{Function Words}
-\format{A vector with 352 elements}
+\format{A vector with 350 elements}
 \usage{
 data(function.words)
 }
