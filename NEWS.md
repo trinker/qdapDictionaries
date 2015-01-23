@@ -25,6 +25,9 @@ qdapDictionaries 1.0.3
 * `contractions` did not contain "we've" but erroneously contained "what did" 
   rather than "what'd" and "when" rather than "when'd" = "when did".
 
+* The data sets `emoticon` and `abbreviations` had the comuns stored as `factor`.  
+  These columns have been chanegd to `character`.
+
 **NEW FEATURES**
 
 * `function.words` a list of function words added from: <a href="http://myweb.tiscali.co.uk/wordscape/museum/funcword.html" target="_blank">http://myweb.tiscali.co.uk/wordscape/museum/funcword.html</a>
