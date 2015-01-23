@@ -26,7 +26,7 @@ qdapDictionaries 1.0.3
   rather than "what'd" and "when" rather than "when'd" = "when did".
 
 * The data sets `emoticon` and `abbreviations` had the columns stored as `factor`.  
-  These columns have been chanegd to `character`.
+  These columns have been changed to `character`.
 
 **NEW FEATURES**
 
@@ -48,7 +48,7 @@ qdapDictionaries 1.0.2
 
 **BUG FIXES**
 
-* `key.syn` contained antonyms and elemets the were error messages (character).
+* `key.syn` contained antonyms and elements that were error messages (character).
   This has been fixed.  Reference <a href="https://github.com/trinker/qdapDictionaries/issues/2">issue #2</a>. (Jingjing Zou)
 
 **NEW FEATURES**
@@ -92,4 +92,4 @@ First version sent to CRAN
 qdapDictionaries 0.0.1
 ----------------------------------------------------------------
 
-The dictionaries and word lists previously found in qdap have been moved to a separate package, <a href="https://github.com/trinker/qdapDictionaries" target="_blank">qdapDictionaries</a>.  This is the first installment of the package.
+The dictionaries and word lists previously found in **qdap** have been moved to a separate package, <a href="https://github.com/trinker/qdapDictionaries" target="_blank">qdapDictionaries</a>.  This is the first instalment of the package.
