@@ -32,7 +32,8 @@ qdapDictionaries 1.0.3
 
 * `function.words` a list of function words added from: <a href="http://myweb.tiscali.co.uk/wordscape/museum/funcword.html" target="_blank">http://myweb.tiscali.co.uk/wordscape/museum/funcword.html</a>
 
-* `discourse.markers` a list of discourse markers added from: <a href="http://www.cs.famaf.unc.edu.ar/~laura/shallowdisc4summ/tesi_electronica.pdf" target="_blank">http://www.cs.famaf.unc.edu.ar/~laura/shallowdisc4summ/tesi_electronica.pdf</a>
+* `discourse.markers.alemany` a list of Aalemany's (2005) discourse markers 
+  added from: <a href="http://www.cs.famaf.unc.edu.ar/~laura/shallowdisc4summ/tesi_electronica.pdf" target="_blank">http://www.cs.famaf.unc.edu.ar/~laura/shallowdisc4summ/tesi_electronica.pdf</a>
 
 **MINOR FEATURES**
 

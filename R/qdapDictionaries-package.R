@@ -684,7 +684,7 @@ NULL
 #' @references \url{http://www.wjh.harvard.edu/~inquirer/inqdict.txt} 
 NULL
 
-#' Discourse Markers
+#' Alemany's Discourse Markers
 #' 
 #' A dataset containing discourse markers
 #' 
@@ -709,8 +709,8 @@ NULL
 #' 
 #' @docType data 
 #' @keywords datasets 
-#' @name discourse.markers 
-#' @usage data(discourse.markers) 
+#' @name discourse.markers.alemany 
+#' @usage data(discourse.markers.alemany) 
 #' @format A data frame with 97 rows and 5 variables 
 #' @references Alemany, L. A. (2005). Representing discourse for automatic text summarization via 
 #' shallow NLP techniques (Unpublished doctoral dissertation). Universitat de Barcelona, Barcelona.\cr 

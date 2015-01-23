@@ -6,7 +6,7 @@ doc   <- htmlTreeParse(URL, useInternalNodes = TRUE)
 nodes <- getNodeSet(doc, "//center//b//text()")
 nms <- c(sapply(nodes, xmlValue) , "polysemic", "vague")
 
-discourse.markers <- setNames(lapply(m[-1], function(x){
+discourse.markers.alemany <- setNames(lapply(m[-1], function(x){
     x[] <- lapply(x, as.character)
     out <- x[, colnames(x) %in% c("English", "structural", "semantic", "PoS"), drop=FALSE]
     if (ncol(out)==3) {
@@ -29,12 +29,12 @@ discourse.markers <- setNames(lapply(m[-1], function(x){
 }), nms)
 
 
-discourse.markers <- list_df2df(discourse.markers, "type")[, c(2, 1, 3:5)]
-discourse.markers[discourse.markers[[1]] == "incluso", 1] <- "even"
+discourse.markers.alemany <- list_df2df(discourse.markers.alemany, "type")[, c(2, 1, 3:5)]
+discourse.markers.alemany[discourse.markers.alemany[[1]] == "incluso", 1] <- "even"
 
 library(dplyr)
 
-discourse.markers <- discourse.markers %>%
+discourse.markers.alemany <- discourse.markers.alemany %>%
     group_by(type, structural) %>%
     arrange(marker) %>%   
     as.data.frame %>%
@@ -42,4 +42,4 @@ discourse.markers <- discourse.markers %>%
 
 
 
-save(discourse.markers, file="discourse.markers.rda")
+save(discourse.markers.alemany, file="discourse.markers.alemany.rda")
