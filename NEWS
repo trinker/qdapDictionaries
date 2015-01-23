@@ -29,6 +29,8 @@ NEW FEATURES
 
 * `function.words` a list of function words added from: http://myweb.tiscali.co.uk/wordscape/museum/funcword.html
 
+* `discourse.markers` a list of discourse markers added from: http://www.cs.famaf.unc.edu.ar/~laura/shallowdisc4summ/tesi_electronica.pdf
+
 MINOR FEATURES
 
 IMPROVEMENTS
