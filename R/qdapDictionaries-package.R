@@ -22,7 +22,7 @@ NULL
 #' @name GradyAugmented
 #' @usage data(GradyAugmented) 
 #' @format A vector with 122806 elements 
-#' @references Moby Thesaurus List by Grady Ward \url{http://www.gutenberg.org/etext/3202} \cr \cr
+#' @references Moby Thesaurus List by Grady Ward \url{http://www.gutenberg.org} \cr \cr
 #' List of names from Mark Kantrowitz \url{http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names/}.  
 #' A copy of the \href{http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names/readme.txt}{README} 
 #' is available \href{http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names/readme.txt}{here} 
@@ -540,7 +540,7 @@ NULL
 #' @name NAMES 
 #' @usage data(NAMES) 
 #' @format A data frame with 5493 rows and 7 variables 
-#' @references \url{http://www.census.gov/genealogy/www/data/1990surnames/names_files.html}
+#' @references \url{http://www.census.gov}
 NULL
  
 #' First Names and Predictive Gender (U.S.)
@@ -561,7 +561,7 @@ NULL
 #' @name NAMES_SEX 
 #' @usage data(NAMES_SEX) 
 #' @format A data frame with 5162 rows and 3 variables 
-#' @references \url{http://www.census.gov/genealogy/www/data/1990surnames/names_files.html}
+#' @references \url{http://www.census.gov}
 NULL
 
 #' First Names and Predictive Gender (U.S.) List
@@ -583,7 +583,7 @@ NULL
 #' @name NAMES_LIST 
 #' @usage data(NAMES_LIST) 
 #' @format A list with 26 elements 
-#' @references \url{http://www.census.gov/genealogy/www/data/1990surnames/names_files.html}
+#' @references \url{http://www.census.gov}
 NULL
 
 #' Function Words

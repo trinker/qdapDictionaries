@@ -23,7 +23,7 @@ Alphabetical list of dataframes with the following variables:
 }
 }
 \references{
-\url{http://www.census.gov/genealogy/www/data/1990surnames/names_files.html}
+\url{http://www.census.gov}
 }
 \keyword{datasets}
 

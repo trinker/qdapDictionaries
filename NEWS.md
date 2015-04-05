@@ -17,7 +17,7 @@ And constructed with the following guidelines:
 * Bug fixes and misc changes bumps the patch
 
 
-qdapDictionaries 1.0.3
+qdapDictionaries 1.0.4
 ----------------------------------------------------------------
 
 **BUG FIXES**
@@ -30,14 +30,10 @@ qdapDictionaries 1.0.3
 
 **NEW FEATURES**
 
-* `function.words` a list of function words added from: <a href="http://myweb.tiscali.co.uk/wordscape/museum/funcword.html" target="_blank">http://myweb.tiscali.co.uk/wordscape/museum/funcword.html</a>
+* `function.words` a list of function words added from: http://myweb.tiscali.co.uk/wordscape/museum/funcword.html
 
 * `discourse.markers.alemany` a list of Aalemany's (2005) discourse markers 
-  added from: <a href="http://www.cs.famaf.unc.edu.ar/~laura/shallowdisc4summ/tesi_electronica.pdf" target="_blank">http://www.cs.famaf.unc.edu.ar/~laura/shallowdisc4summ/tesi_electronica.pdf</a>
-
-**MINOR FEATURES**
-
-**IMPROVEMENTS**
+  added from: http://www.cs.famaf.unc.edu.ar/~laura/shallowdisc4summ/tesi_electronica.pdf
 
 **CHANGES**
 
@@ -57,7 +53,7 @@ qdapDictionaries 1.0.2
 * `GradyAugmented` was added.  This augmented Grady data set is a large list of 
  known English words and proper nouns.
 
-**IMPROVEMENTS**
+IMPROVEMENTS
 
 * `contractions` data set picks up 3 words: "it'll", "'cause", & "there'll".
 

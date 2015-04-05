@@ -21,7 +21,7 @@ A truncated version of the \code{NAMES} dataset used for predicting.
 }
 }
 \references{
-\url{http://www.census.gov/genealogy/www/data/1990surnames/names_files.html}
+\url{http://www.census.gov}
 }
 \keyword{datasets}
 

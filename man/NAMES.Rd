@@ -25,7 +25,7 @@ A dataset containing 1990 U.S. census data on first names.
 }
 }
 \references{
-\url{http://www.census.gov/genealogy/www/data/1990surnames/names_files.html}
+\url{http://www.census.gov}
 }
 \keyword{datasets}
 

@@ -18,27 +18,34 @@ source("inst/update_news.R")
 #staticdocs dev version
 #========================
 #packages
-# library(devtools); install_github("qdap", "trinker"); install_github("staticdocs", "hadley")
-# install_github("acc.roxygen2", "trinker")
-library(highlight); library(staticdocs); library(acc.roxygen2)
+pacman::p_load_gh("hadley/staticdocs")
+pacman::p_load(highlight)
 
 #STEP 1: create static doc  
 #right now examples are FALSE in the future this will be true
 #in the future qdap2 will be the go to source
-build_site(pkg="C:/Users/trinker/GitHub/qdapDictionaries")
+R_USER <-  switch(Sys.info()[["user"]],
+    Tyler = "C:/Users/Tyler",
+    trinker = "C:/Users/trinker",
+    message("Computer name not found")
+)
+
+build_site(pkg=file.path(R_USER, "GitHub/qdapDictionaries"), launch = FALSE)
 
 #STEP 2: reshape index
 path <- "inst/web"
 path2 <- paste0(path, "/index.html")
-rdme <- "C:/Users/trinker/GitHub/qdapDictionaries/inst/extra_statdoc/readme.R"
-#extras <- qcv(right.just, coleman_liau, flesch_kincaid, fry, 
+rdme <- "inst/extra_statdoc/readme.R"
+#extras <- mgsub::qcv(right.just, coleman_liau, flesch_kincaid, fry, 
 #    linsear_write, SMOG, syn, mgsub, adjmat, wc, wfdf, mcsv_w, dtm)
+pacman::p_load_gh("trinker/acc.roxygen2")
 expand_statdoc(path2, readme = rdme)
 
 #STEP 3: move to trinker.guthub
 library(reports)
-file <- "C:/Users/trinker/GitHub/trinker.github.com"
+file <- file.path(R_USER, "GitHub/trinker.github.com/")
 incoming <- file.path(file, "qdapDictionaries_dev")
+
 delete(incoming)
 file.copy(path, file, TRUE, TRUE)
 file.rename(file.path(file, "web"), incoming)
@@ -65,8 +72,9 @@ expand_statdoc(path2, readme = rdme)
 
 #STEP 3: move to trinker.guthub
 library(reports)
-file <- "C:/Users/trinker/GitHub/trinker.github.com"
+file <- file.path(R_USER, "GitHub/trinker.github.com/")
 incoming <- file.path(file, "qdapDictionaries")
+
 delete(incoming)
 file.copy(path, file, TRUE, TRUE)
 file.rename(file.path(file, "web"), incoming)

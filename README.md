@@ -1,8 +1,8 @@
 # qdapDictionaries
 
-[![Build Status](https://travis-ci.org/trinker/qdapDictionaries.png?branch=master)](https://travis-ci.org/trinker/qdapDictionaries) [![DOI](https://zenodo.org/badge/5398/trinker/qdapDictionaries.png)](http://dx.doi.org/10.5281/zenodo.11119)
+[![Build Status](https://travis-ci.org/trinker/qdapDictionaries.svg?branch=master)](https://travis-ci.org/trinker/qdapDictionaries) [![DOI](https://zenodo.org/badge/5398/trinker/qdapDictionaries.svg)](http://dx.doi.org/10.5281/zenodo.11119)
 
-![qdapicon](https://dl.dropbox.com/u/61803503/qdapicon.png)   
+![qdapicon](https://dl.dropbox.com/u/61803503/qdapicon.svg)   
 [qdapDictionaries](http://trinker.github.com/qdapDictionaries_dev/) is an R package containing the dictionaries and word lists for use with the qdap package.
 
 ## Installation
