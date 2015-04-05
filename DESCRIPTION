@@ -5,11 +5,9 @@ Version: 1.0.4
 Date: 2015-04-04
 Author: Tyler Rinker
 Maintainer: Tyler Rinker <tyler.rinker@gmail.com>
-Depends:
-    R (>= 3.0.0)
+Depends: R (>= 3.0.0)
 LazyData: TRUE
-Description: A collection of dictionaries and word lists for
-    use with the qdap package.
+Description: A collection of dictionaries and word lists for use with the qdap package.
 License: GPL-2
 URL: http://trinker.github.com/qdapDictionaries/
 BugReports: http://github.com/trinker/qdapDictionaries/issues

@@ -52,7 +52,7 @@ update_version <- function(ver = NULL){
 update_date <- function(){
     desc <- read.dcf("DESCRIPTION")
 	if (Sys.Date() > desc[,"Date"]) {
-		desc[,"Date"] <- Sys.Date()
+		desc[,"Date"] <- as.character(Sys.Date())
         write.dcf(desc, "DESCRIPTION")
 		message("Date updated")
 	} else {
