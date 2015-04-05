@@ -34,17 +34,22 @@ update_news <- function(repo = basename(getwd())) {
 
 update_version <- function(ver = NULL){
     
-    desc <- suppressWarnings(readLines("DESCRIPTION"))
-    regex <- "(^Version:\\s+\\d+\\.\\d+\\.)(\\d+)"
-    loc <- grep(regex, desc)
-    ver <- ifelse(is.null(ver), as.numeric(gsub(regex, "\\2", desc[loc])) + 1, ver)    
-    desc[loc] <- sprintf(gsub(regex, "\\1%s", desc[loc]), ver)
-    cat(paste(desc, collapse="\n"), file="DESCRIPTION")
-    
+	desc <- read.dcf("DESCRIPTION")
+
+	if (is.null(ver)) {
+		m <- as.numeric(unlist(strsplit(desc[,"Version"], "\\.")))
+		m[3] <- m[3] + 1
+		ver <- paste(m, collapse=".")
+	}
+	
+	desc[,"Version"] <- ver  
+    write.dcf(desc, "DESCRIPTION")
+	
     cit <- suppressWarnings(readLines("inst/CITATION"))
-    regex2 <- '(version\\s+\\d+\\.\\d+\\.)(\\d+)([."])'
+    regex2 <- '(version\\s+)(\\d+\\.\\d+\\.\\d+)'
     cit <- paste(cit, collapse="\n")
-    cat(gsub(regex2, paste0("\\1", ver, "\\3"), cit), file = "inst/CITATION")
+	
+    cat(sprintf(gsub(regex2, "%s", cit, perl=TRUE), ver, ver), file = "inst/CITATION")
     message(sprintf("Updated to version: %s", ver))
 }
 
