@@ -14,18 +14,18 @@ function(dataframe, column = NULL, keep.class = FALSE) {
     if (is.null(column)) column <- colnames(dataframe)
     lj <- function(DF2, column) {
         if (is.null(column)) column <- colnames(DF2)
-        Q <- max(nchar(c(as.character(DF2[, column]), names(DF2)[column])))
+        Qn <- max(nchar(c(as.character(DF2[, column]), column)))   	
         DF2 <- data.frame(rbind(colnames(DF2), do.call(cbind,
             lapply(DF2, as.character))), check.names = FALSE)
         DF2[, column] <- left.j(as.character(DF2[, column]))     
         if (is.character(column)) {
             col <- names(DF2)[which(names(DF2) == column)]
                 names(DF2)[which(names(DF2) == column)] <- sprintf(paste("%-", 
-                Q, "s", sep = ""), col)
+                Qn, "s", sep = ""), col)
         } else {
             if (is.numeric(column)) {
                 col <- names(DF2)[column]
-                    names(DF2)[column] <- sprintf(paste("%-", Q, "s", 
+                    names(DF2)[column] <- sprintf(paste("%-", Qn, "s", 
                     sep = ""), col)
             }
         }
@@ -71,3 +71,4 @@ function(dataframe, column = NULL, keep.class = FALSE) {
     colnames(DF3) <- gsub("\\.(?=\\.*$)", " ", colnames(DF3), perl=TRUE)
     return(DF3)
 }
+

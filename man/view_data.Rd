@@ -2,15 +2,18 @@
 % Please edit documentation in R/view_data.R
 \name{view_data}
 \alias{view_data}
-\title{List all data sets available in a qdapDictionaries}
+\title{List all data sets available in a \pkg{qdapDictionaries}}
 \usage{
-view_data()
+view_data(package = "qdapDictionaries")
+}
+\arguments{
+\item{package}{The name of the package.}
 }
 \value{
-Returns the data sets of qdapDictionaries as a dataframe.
+Returns the data sets of \pkg{qdapDictionaries} as a dataframe.
 }
 \description{
-Lists and describes all the data sets available in qdapDictionaries.
+Lists and describes all the data sets available in \pkg{qdapDictionaries}.
 }
 \examples{
 view_data()

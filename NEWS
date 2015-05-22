@@ -21,15 +21,8 @@ And constructed with the following guidelines:
 qdapDictionaries 1.0.6
 ----------------------------------------------------------------
 
-BUG FIXES
-
-NEW FEATURES
-
-MINOR FEATURES
-
-IMPROVEMENTS
-
-CHANGES
+A named index was used in the internal function `left.just` producing an `NA`.
+This caused an error to be thrown in **R Under development (unstable) (2015-05-19 r68384)**.
 
 
 qdapDictionaries 1.0.5

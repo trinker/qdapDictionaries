@@ -1,19 +1,17 @@
-#' List all data sets available in a qdapDictionaries
+#' List all data sets available in a \pkg{qdapDictionaries}
 #' 
-#' Lists and describes all the data sets available in qdapDictionaries.
+#' Lists and describes all the data sets available in \pkg{qdapDictionaries}.
 #' 
+#' @param package The name of the package.
 #' @seealso \code{\link[utils]{data}}
-#' @return Returns the data sets of qdapDictionaries as a dataframe.
+#' @return Returns the data sets of \pkg{qdapDictionaries} as a dataframe.
 #' @export
 #' @examples
 #' view_data()
 view_data <-
-function() {
-    pack <- "qdapDictionaries"
-    results <- data(package = pack)[["results"]]
-    o <- data.frame(results[, 3:4], 
-        stringsAsFactors = FALSE
-    )
+function(package = "qdapDictionaries") {
+    results <- data(package = package)[["results"]]
+    o <- as.data.frame(results[, 3:4], stringsAsFactors = FALSE)
     class(o) <- c("view_data", "data.frame")
     return(o)
 }
