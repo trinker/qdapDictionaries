@@ -2,7 +2,7 @@ Package: qdapDictionaries
 Type: Package
 Title: Dictionaries and Word Lists for the 'qdap' Package
 Version: 1.0.7
-Date: 2015-05-21
+Date: 2015-05-22
 Author: Tyler Rinker
 Maintainer: Tyler Rinker <tyler.rinker@gmail.com>
 Depends: R (>= 3.0.0)
