@@ -18,6 +18,11 @@ And constructed with the following guidelines:
 
 
 
+qdapDictionaries 1.0.7
+----------------------------------------------------------------
+
+
+
 qdapDictionaries 1.0.6
 ----------------------------------------------------------------
 
