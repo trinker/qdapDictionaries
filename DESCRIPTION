@@ -8,7 +8,7 @@ Maintainer: Tyler Rinker <tyler.rinker@gmail.com>
 Depends: R (>= 3.0.0)
 Imports: methods, utils
 LazyData: TRUE
-Description: A collection of dictionaries and word lists for use with
+Description: A collection of text analysis dictionaries and word lists for use with
         the 'qdap' package.
 License: GPL-2
 URL: http://trinker.github.com/qdapDictionaries/
