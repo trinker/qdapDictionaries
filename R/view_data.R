@@ -10,7 +10,7 @@
 #' view_data()
 view_data <-
 function(package = "qdapDictionaries") {
-    results <- data(package = package)[["results"]]
+    results <- utils::data(package = package)[["results"]]
     o <- as.data.frame(results[, 3:4], stringsAsFactors = FALSE)
     class(o) <- c("view_data", "data.frame")
     return(o)

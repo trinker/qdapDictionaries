@@ -21,13 +21,18 @@ And constructed with the following guidelines:
 qdapDictionaries 1.0.7
 ----------------------------------------------------------------
 
+**BUG FIXES**
 
-
+* `deamplification.words` contained a typo: "sparesly" instead of "sparsely".
+  This was spotted by Claire Kunesh.
+  
 qdapDictionaries 1.0.6
 ----------------------------------------------------------------
 
-A named index was used in the internal function `left.just` producing an `NA`.
-This caused an error to be thrown in **R Under development (unstable) (2015-05-19 r68384)**.
+**BUG FIXES**
+
+* A named index was used in the internal function `left.just` producing an `NA`.
+  This caused an error to be thrown in **R Under development (unstable) (2015-05-19 r68384)**.
 
 
 qdapDictionaries 1.0.5
@@ -43,10 +48,10 @@ qdapDictionaries 1.0.5
 
 **NEW FEATURES**
 
-* `function.words` a list of function words added from: http://myweb.tiscali.co.uk/wordscape/museum/funcword.html
+* `function.words` a list of function words added from: <a href="http://myweb.tiscali.co.uk/wordscape/museum/funcword.html" target="_blank">http://myweb.tiscali.co.uk/wordscape/museum/funcword.html</a>
 
 * `discourse.markers.alemany` a list of Aalemany's (2005) discourse markers 
-  added from: http://www.cs.famaf.unc.edu.ar/~laura/shallowdisc4summ/tesi_electronica.pdf
+  added from: <a href="http://www.cs.famaf.unc.edu.ar/~laura/shallowdisc4summ/tesi_electronica.pdf" target="_blank">http://www.cs.famaf.unc.edu.ar/~laura/shallowdisc4summ/tesi_electronica.pdf</a>
 
 **CHANGES**
 
@@ -66,7 +71,7 @@ qdapDictionaries 1.0.2
 * `GradyAugmented` was added.  This augmented Grady data set is a large list of 
  known English words and proper nouns.
 
-IMPROVEMENTS
+**IMPROVEMENTS**
 
 * `contractions` data set picks up 3 words: "it'll", "'cause", & "there'll".
 
