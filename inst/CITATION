@@ -4,13 +4,12 @@ citHeader("To cite qdapDictionaries in publications, please use:")
 citEntry(entry = "manual",
     title = "{qdapDictionaries}: Dictionaries to Accompany the qdap Package",
     author = "Tyler W. Rinker",
-    organization = "University at Buffalo/SUNY",
     address = "Buffalo, New York",
-    note = "1.0.7",
+    note = "1.0.8",
     year = "2013",
     url = "http://github.com/trinker/qdapDictionaries", 
     textVersion  = paste("Rinker, T. W. (2013).",
         "qdapDictionaries: Dictionaries to Accompany the qdap Package.",
-        "1.0.7. University at Buffalo. Buffalo, New York.",
+        "1.0.8. Buffalo, New York.",
         "http://github.com/trinker/qdapDictionaries")
 )
